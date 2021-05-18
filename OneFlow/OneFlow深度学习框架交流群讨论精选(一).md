@@ -14,7 +14,7 @@ OneFlow团队通过理论分析证明了在某些特定场景下，流水并行�
 
 **讨论过程：**
 
-![](./imgs/2.jpg)
+<img src="./imgs/2.jpg" style="zoom: 67%;" />
 
 ![](./imgs/3.jpg)
 
@@ -28,7 +28,7 @@ TensorFlow和Pytorch因为历史包袱的原因，在已有框架下做模型并
 
 **讨论过程：**
 
-![](./imgs/4.jpg)
+<img src="./imgs/4.jpg" style="zoom:67%;" />
 
 ![](./imgs/5.jpg)
 
@@ -42,7 +42,7 @@ TensorFlow和Pytorch因为历史包袱的原因，在已有框架下做模型并
 
 (有人举了BERT、GPT等大模型例子)
 
-![](./imgs/6.jpg)
+<img src="./imgs/6.jpg" style="zoom:67%;" />
 
 ![](./imgs/7.jpg)
 
@@ -56,4 +56,4 @@ OneFlow在开源同时，开放的Model Zoo中会包括一些常见的模型，�
 
 **讨论过程：**
 
-![](./imgs/8.jpg)
+<img src="./imgs/8.jpg" style="zoom:67%;" />
