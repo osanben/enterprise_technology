@@ -4,7 +4,7 @@ OneFlow 即将开源，“OneFlow 深度学习框架微信交流群”中已经�
 
 以下内容摘录自2020.7.25OneFlow深度学习框架交流群。
 
-![](./imgs/1.webp)
+![](./imgs/1.jpg)
 
 **太长不看版本**
 
@@ -14,9 +14,9 @@ OneFlow团队通过理论分析证明了在某些特定场景下，流水并行�
 
 **讨论过程：**
 
-![](./imgs/2.webp)
+![](./imgs/2.jpg)
 
-![](./imgs/3.webp)
+![](./imgs/3.jpg)
 
 **太长不看版本**
 
@@ -28,9 +28,9 @@ TensorFlow和Pytorch因为历史包袱的原因，在已有框架下做模型并
 
 **讨论过程：**
 
-![](./imgs/4.webp)
+![](./imgs/4.jpg)
 
-![](./imgs/5.webp)
+![](./imgs/5.jpg)
 
 **太长不看版本**
 
@@ -42,9 +42,9 @@ TensorFlow和Pytorch因为历史包袱的原因，在已有框架下做模型并
 
 (有人举了BERT、GPT等大模型例子)
 
-![](./imgs/6.webp)
+![](./imgs/6.jpg)
 
-![](./imgs/7.webp)
+![](./imgs/7.jpg)
 
 **太长不看版本**
 
@@ -56,4 +56,4 @@ OneFlow在开源同时，开放的Model Zoo中会包括一些常见的模型，�
 
 **讨论过程：**
 
-![](./imgs/8.webp)
+![](./imgs/8.jpg)
