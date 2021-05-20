@@ -1,6 +1,6 @@
 # 企业技术文章精选
 
-企业技术文章精选，觉得不错的话别忘了点个Star哈。
+企业技术文章精选，**觉得不错的话别忘了点个Star哈**。
 
 计划每天更新一篇
 
@@ -9,6 +9,8 @@
 [OneFlow深度学习框架交流群讨论精选(一)](./OneFlow/OneFlow深度学习框架交流群讨论精选(一).md)
 
 [OneFlow深度学习框架交流群讨论精选(二)](./OneFlow/OneFlow深度学习框架交流群讨论精选(二).md)
+
+**今日新增**[TensorFlow和PyTorch迎来了后浪](./OneFlow/TensorFlow和PyTorch迎来了后浪.md)
 
 ## CSDN-极客头条
 
