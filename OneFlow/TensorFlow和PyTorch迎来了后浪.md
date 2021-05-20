@@ -1,6 +1,8 @@
 7 月 31 日，深度学习框架 OneFlow 正式在 GitHub 上开源，采用 Apache 2.0 开源协议，这是国内首个由初创公司、小团队自研并开源的 AI 框架。OneFlow 从研发之初就主打高效性，致力于解决大规模分布式 AI 训练问题。
 
-**OneFlow 开源项目地址：**https://github.com/Oneflow-Inc/oneflow
+**OneFlow 开源项目地址：**
+
+[https://github.com/Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow)
 
 对于从 OneFlow 项目早期就开始关注的开发者来说，这一天已经等了 1300 多天；而对于 OneFlow 的创建者袁进辉（微博人称老师木）来说，创业三年多，这一次“吹过的牛终于要兑现了”。
 
