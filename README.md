@@ -31,3 +31,7 @@
 ## 矩阵元
 
 **今日新增**[首批矩阵元隐私计算服务系统通过国家金融科技测评中心测试](./矩阵元/首批矩阵元隐私计算服务系统通过国家金融科技测评中心测试.md)
+
+## PaddlePaddle
+
+[PaddlePaddle2.1.0 Release Note](./PaddlePaddle/PaddlePaddle2.1.0 Release Note.md)
