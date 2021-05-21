@@ -34,4 +34,4 @@
 
 ## PaddlePaddle
 
-[PaddlePaddle2.1.0 Release Note](./PaddlePaddle/PaddlePaddle2.1.0 Release Note.md)
+**今日新增**[PaddlePaddle2.1.0 Release Note](./PaddlePaddle/PaddlePaddle2.1.0 Release Note.md)
