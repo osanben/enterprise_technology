@@ -30,4 +30,6 @@
 
 **今日新增**[PaddlePaddle2.1.0 Release Note](./PaddlePaddle/PaddlePaddle2.1.0 Release Note.md)
 
+**今日新增**[WAVE SUMMIT 2021飞桨九大全新发布，敲响产业智能化升级最强音](./PaddlePaddle/WAVE SUMMIT 2021飞桨九大全新发布，敲响产业智能化升级最强音.md)
+
 往期精彩链接: [点击这里](./PaddlePaddle)
