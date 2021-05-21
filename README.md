@@ -16,6 +16,8 @@
 
 [TensorFlow和PyTorch迎来了后浪](./OneFlow/TensorFlow和PyTorch迎来了后浪.md)
 
+[一流科技登上开源供应商名录](./OneFlow/一流科技登上开源供应商名录.md)
+
 ## CSDN-极客头条
 
 [华为最新人事调整：余承东任智能汽车解决方案 BU CEO；美团悄悄更换抽佣规则，佣金不降反升；Scala 3 正式发布极客头条](./CSDN/华为最新人事调整：余承东任智能汽车解决方案 BU CEO；美团悄悄更换抽佣规则，佣金不降反升；Scala 3 正式发布极客头条.md)
