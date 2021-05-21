@@ -16,7 +16,7 @@
 
 [TensorFlow和PyTorch迎来了后浪](./OneFlow/TensorFlow和PyTorch迎来了后浪.md)
 
-[一流科技登上开源供应商名录](./OneFlow/一流科技登上开源供应商名录.md)
+**今日新增**[一流科技登上开源供应商名录](./OneFlow/一流科技登上开源供应商名录.md)
 
 ## CSDN-极客头条
 
