@@ -12,6 +12,8 @@
 
 **2021-05-24-新增**[OneFlow 线上交流会I Eager 项目讨论](./OneFlow/OneFlow 线上交流会I Eager 项目讨论.md)
 
+**2021-05-25-新增**[张建浩：一个开源爱好者的框架开发之路  OneFlow U](./OneFlow/张建浩：一个开源爱好者的框架开发之路  OneFlow U.md)
+
 往期精彩链接: [点击这里](./OneFlow)
 
 ## CSDN-极客头条
