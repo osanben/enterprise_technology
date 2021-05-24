@@ -32,9 +32,7 @@
 
 ## PaddlePaddle
 
-**今日新增**[PaddlePaddle2.1.0 Release Note](./PaddlePaddle/PaddlePaddle2.1.0 Release Note.md)
-
-**今日新增**[WAVE SUMMIT 2021飞桨九大全新发布，敲响产业智能化升级最强音](./PaddlePaddle/WAVE SUMMIT 2021飞桨九大全新发布，敲响产业智能化升级最强音.md)
+**2021-05-24-新增**[本周AI热点回顾：傅里叶变换取代Transformer，GPU上快7倍、TPU上快2倍；DeepMind新模型自动生成CAD草图](./PaddlePaddle/本周AI热点回顾：傅里叶变换取代Transformer，GPU上快7倍、TPU上快2倍；DeepMind新模型自动生成CAD草图.md)
 
 往期精彩链接: [点击这里](./PaddlePaddle)
 
