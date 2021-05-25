@@ -24,13 +24,17 @@
 
 2018 年毕业之后，我去了京东 AI 工作。得益于上级领导的支持，我用工作时间做了一些和部门主线无关的开源项目，有两个主要的项目都是深度学习推理框架。例如 dabnn，它是业界第一个高效的二值网络开源部署框架。这个工作发表在多媒体顶会 ACM MM 的 Open Source Software Competition 上 （https://arxiv.org/abs/1908.05858）。
 
-在这个工作之前，二值网络研究者们只知道二值网络的理论加速比，但对二值网络在真实世界的性能无从知晓。有了这个工作之后，研究者们 （https://arxiv.org/abs/1909.10788）就可以报告他们设计的二值网络在 CPU 上的实际速度。在 dabnn 之后，还有一些工作（如 larq 和华为的 bolt）继续在二值网络部署这条路上前进。
+在这个工作之前，二值网络研究者们只知道二值网络的理论加速比，但对二值网络在真实世界的性能无从知晓。有了这个工作之后，研究者们 （https://arxiv.org/abs/1909.10788）
+
+就可以报告他们设计的二值网络在 CPU 上的实际速度。在 dabnn 之后，还有一些工作（如 larq 和华为的 bolt）继续在二值网络部署这条路上前进。
 
 此外，我的另一个开源项目 DNNLibrary，一个使用 Android 神经网络 API（NNAPI） 在移动端部署 ONNX 模型的库，当时吸引了微软 ONNX Runtime 团队的合作。ONNX Runtime 最初的 Android 适配，以及当时 Preview 版本的 NNAPI 支持都是由我完成。
 
 借这次合作，我融入了 ONNX 社区，当时为了消除 ONNX 模型中的冗余 op 花了一天时间实现的 onnx-simplifier ，现在已经成了我最高的 Star 数项目（1.3k），被 YOLOv5、TNN 等项目官方集成，NCNN、MXNet 和 TensorRT 的开发者也推荐用户使用这个库优化掉它们不支持的 op。
 
-我给 ONNX 贡献了 Resize、Softmax 等 op 的 spec（ https://zhuanlan.zhihu.com/p/107761106），成为了 ONNX Operator SIG 的成员。现在我还在维护着 ONNX 官方的 ONNX Optimizer （ https://zhuanlan.zhihu.com/p/350702340）。
+我给 ONNX 贡献了 Resize、Softmax 等 op 的 spec（ https://zhuanlan.zhihu.com/p/107761106），
+
+成为了 ONNX Operator SIG 的成员。现在我还在维护着 ONNX 官方的 ONNX Optimizer （ https://zhuanlan.zhihu.com/p/350702340）。
 
 到 OneFlow 之后，我对 OneFlow 和 ONNX 之间的模型转换工作也做了许多贡献。
 
