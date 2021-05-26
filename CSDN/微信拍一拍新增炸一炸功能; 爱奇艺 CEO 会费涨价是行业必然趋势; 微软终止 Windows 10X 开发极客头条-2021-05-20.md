@@ -65,4 +65,4 @@ Google 正在更新它的网页搜索排名算法，Accelerated Mobile Pages (AM
 
 **Google 发布自然语言平台 LaMDA**
 
-在昨日的 Google I/O 2021 开发者大会上，谷歌针对语言处理方面又发布了一项新技术 LaMDA，与其他大多数语言模型不同的是，LaMDA 接受的是对话训练，是一个基于对话应用的语言模型。它现在仍在研究和开发中，Google 最终将把 LaMDA 放在 Google 搜索、Google 助理和现在正全世界范围内炙手可热的工作空间中。有关该技术的具体细节，大家可以访问谷歌的官方说明：https://blog.google/technology/ai/lamda/
+在昨日的 Google I/O 2021 开发者大会上，谷歌针对语言处理方面又发布了一项新技术 LaMDA，与其他大多数语言模型不同的是，LaMDA 接受的是对话训练，是一个基于对话应用的语言模型。它现在仍在研究和开发中，Google 最终将把 LaMDA 放在 Google 搜索、Google 助理和现在正全世界范围内炙手可热的工作空间中。有关该技术的具体细节，大家可以访问谷歌的官方说明：[https://blog.google/technology/ai/lamda/](https://blog.google/technology/ai/lamda/)

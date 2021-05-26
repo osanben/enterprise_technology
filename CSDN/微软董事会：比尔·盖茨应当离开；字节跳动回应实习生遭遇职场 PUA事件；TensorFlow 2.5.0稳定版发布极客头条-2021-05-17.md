@@ -56,7 +56,7 @@
 
 **Pyston 2.2 发布：回归开源 Python 实现要比网络基准快 30%**
 
-作为 Python 的高性能实现，Pyston 2.2 稳定版于已正式发布。官方表示，在 Pyston 2.2 版本中，开发者声称他们的实现比用于网络服务器基准的 Python 库存快 30%。这次的提速包括他们的 JIT 和属性缓存机制的工作。此外，Facebook 引入了 Cinder 作为一个新的孵化器项目，提供快速的 Python JIT 实现。此外，开发团队还合并了 CPython 的许多更改，其现在基于 CPython 3.8.8。有关该版本的更多详情，欢迎查看版本发布说明：https://blog.pyston.org/2021/05/05/pyston-v2-2-faster-and-open-source/
+作为 Python 的高性能实现，Pyston 2.2 稳定版于已正式发布。官方表示，在 Pyston 2.2 版本中，开发者声称他们的实现比用于网络服务器基准的 Python 库存快 30%。这次的提速包括他们的 JIT 和属性缓存机制的工作。此外，Facebook 引入了 Cinder 作为一个新的孵化器项目，提供快速的 Python JIT 实现。此外，开发团队还合并了 CPython 的许多更改，其现在基于 CPython 3.8.8。有关该版本的更多详情，欢迎查看版本发布说明：[https://blog.pyston.org/2021/05/05/pyston-v2-2-faster-and-open-source/](https://blog.pyston.org/2021/05/05/pyston-v2-2-faster-and-open-source/)
 
 **TensorFlow 2.5.0 稳定版发布**
 
@@ -70,4 +70,4 @@ TensorFlow 2.5.0 稳定版现已发布，该版本进行了多项重大更新。
 - TPU 嵌入支持
 - 利用 CUDA11.2 和 cuDNN 8.1.0 构建 TensorFlow pip 软件包
 
-更多详情，可查看官方发布说明：https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0
+更多详情，可查看官方发布说明：[https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0)
