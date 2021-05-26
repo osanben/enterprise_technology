@@ -3,7 +3,7 @@
 来看看4.5.2都有哪些重要改进：
 
 - **core模块**：增加并行后端的支持。特殊编译的OpenCV可以允许选择并行后端，并/或通过plugin动态载入。
-- **imgpro模块**：增加智能剪刀功能（如下演示）。CVAT标注工具已经集成此功能，可在线体验https://cvat.org。
+- **imgpro模块**：增加智能剪刀功能（如下演示）。CVAT标注工具已经集成此功能，可在线体验[https://cvat.org](https://cvat.org)。
 
 - **videoio模块**：改进硬件加速的视频编解码任务。从4.5.2开始，新的内置属性让用户更容易使用API
 
@@ -17,7 +17,7 @@ VideoCapture capture(filename, CAP_FFMPEG,
 
 - **DNN模块：**
 
-- - 改进TensorFlow解析错误的调试
+  - 改进TensorFlow解析错误的调试
 
   - 改进layers和activations，支持更多模型
 
@@ -29,7 +29,7 @@ VideoCapture capture(filename, CAP_FFMPEG,
 
 - **G-API模块：**
 
-- - Python支持
+  - Python支持
 
   - - 引入新的Python后端：G-API可以运行Python的任意kernels作为pipeline的一部分
     - 扩展G-API Python绑定的推理支持
@@ -58,13 +58,13 @@ VideoCapture capture(filename, CAP_FFMPEG,
 
 - **文档：**
 
-- - [GSoC]增加TF和PyTorch分类转换案例
+  - [GSoC]增加TF和PyTorch分类转换案例
   - [GSoC]增加TF和PyTorch分割转换案例
   - [GSoC]增加TF和PyTorch检测转换案例
 
 - **社区贡献：**
 
-- - core：增加带cuda stream标志的cuda::Stream构造函数
+  - core：增加带cuda stream标志的cuda::Stream构造函数
   - highgui：Win32上的OpenGL暴露VSYNC窗口属性
   - highgui：Win32上的pollKey()实现
   - imgcodecs：增加PNG的Exif解析
@@ -78,4 +78,4 @@ VideoCapture capture(filename, CAP_FFMPEG,
 
 更多详细信息请参考：
 
-https://github.com/opencv/opencv/wiki/ChangeLog#version452
+[https://github.com/opencv/opencv/wiki/ChangeLog#version452](https://github.com/opencv/opencv/wiki/ChangeLog#version452)

@@ -103,12 +103,12 @@ float trackerEval(Mat img, trackerConfig& trackState, Net& siamRPN)
 
 全部代码请参考：
 
-https://github.com/opencv/opencv/blob/master/samples/dnn/dasiamrpn_tracker.cpp
+[https://github.com/opencv/opencv/blob/master/samples/dnn/dasiamrpn_tracker.cpp](https://github.com/opencv/opencv/blob/master/samples/dnn/dasiamrpn_tracker.cpp)
 
 参考资料：
 
-1. 原始论文：https://arxiv.org/abs/1808.06048
+1. 原始论文：[https://arxiv.org/abs/1808.06048](https://arxiv.org/abs/1808.06048)
 
-2. 原始PyTorch实现：https://github.com/foolwood/DaSiamRPN
+2. 原始PyTorch实现：[https://github.com/foolwood/DaSiamRPN](https://github.com/foolwood/DaSiamRPN)
 
-3. OpenCV中Python实现：https://github.com/opencv/opencv/blob/master/samples/dnn/dasiamrpn_tracker.py
+3. OpenCV中Python实现：[https://github.com/opencv/opencv/blob/master/samples/dnn/dasiamrpn_tracker.py](https://github.com/opencv/opencv/blob/master/samples/dnn/dasiamrpn_tracker.py)

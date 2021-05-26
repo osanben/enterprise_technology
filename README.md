@@ -56,6 +56,10 @@
 
 ## OpenCV
 
+**2021-05-26新增**[微信二维码引擎OpenCV开源！3行代码让你拥有微信扫码能力-2021-01-31](./OpenCV/微信二维码引擎OpenCV开源！3行代码让你拥有微信扫码能力-2021-01-31.md)
+
+**2021-05-26新增**[OpenCV-Python成为官方OpenCV项目-2021-02-26](./OpenCV/OpenCV-Python成为官方OpenCV项目-2021-02-26.md)
+
 **2021-05-25新增**[用OpenCV实现条形码识别-2021-04-22](./OpenCV/用OpenCV实现条形码识别-2021-04-22.md)
 
 **2021-05-25新增**[OpenCV中的并行计算parallel_for_(1)-2021-04-07](./OpenCV/OpenCV中的并行计算parallel_for_(1)-2021-04-07.md)

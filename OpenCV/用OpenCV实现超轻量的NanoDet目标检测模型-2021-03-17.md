@@ -16,9 +16,7 @@ nanodet通过一些论文里的trick组合起来得到了一个兼顾精度、�
 
 最后，项目作者借鉴了 YOLO 系列的做法，将边框回归和分类使用同一组卷积进行计算，然后 split 成两份。最后，项目作者借鉴了 YOLO 系列的做法，将边框回归和分类使用同一组卷积进行计算，然后 split 成两份，这样就组成了nanodet网络。
 
-作者把nanodet发布在github上，项目地址： https://github.com/RangiLyu/nanodet，
-
-下载代码和模型文件到本地，按照README文档运行一个前向推理程序。接下来，我阅读前向推理主程序demo.py文件，尝试理解在运行这个主程序时需要调用哪些函数和.py文件。在前向推理主程序demo.py文件，对一幅图片做目标检测是在Predictor类的成员函数inference里实现的，它里面包含了对输入图片做预处理preprocess，前向计算forward和后处理postprocess这三个步骤。Predictor类的定义如下图所示
+作者把nanodet发布在github上，项目地址： [https://github.com/RangiLyu/nanodet](https://github.com/RangiLyu/nanodet)，下载代码和模型文件到本地，按照README文档运行一个前向推理程序。接下来，我阅读前向推理主程序demo.py文件，尝试理解在运行这个主程序时需要调用哪些函数和.py文件。在前向推理主程序demo.py文件，对一幅图片做目标检测是在Predictor类的成员函数inference里实现的，它里面包含了对输入图片做预处理preprocess，前向计算forward和后处理postprocess这三个步骤。Predictor类的定义如下图所示
 
 ![](./imgs/9.jpg)
 
@@ -44,11 +42,9 @@ nanodet通过一些论文里的trick组合起来得到了一个兼顾精度、�
 
 综上所述，在预处理模块Pipeline类包含了很多冗余的计算，图像预处理本身是一个简单问题，但是在官方代码里却把简单问题搞复杂化了。
 
-官方代码仓库(https://github.com/RangiLyu/nanodet)
+官方代码仓库([https://github.com/RangiLyu/nanodet](https://github.com/RangiLyu/nanodet))里提供了基于 ncnn 推理框架的实现，基于mnn，libtorch,openvino的实现，但是没有基于Opencv的dnn模块的实现。于是我就编写一套基于Opencv的dnn模块的实现，程序里包含Python和C++两个版本的代码。
 
-里提供了基于 ncnn 推理框架的实现，基于mnn，libtorch,openvino的实现，但是没有基于Opencv的dnn模块的实现。于是我就编写一套基于Opencv的dnn模块的实现，程序里包含Python和C++两个版本的代码。
-
-**地址是**： **https://github.com/hpc203/nanodet-opncv-dnn-cpp-python**
+**地址是**：[ **https://github.com/hpc203/nanodet-opncv-dnn-cpp-python**](https://github.com/hpc203/nanodet-opncv-dnn-cpp-python)
 
 在这套程序里，图像预处理模块沿用了ultralytics代码仓库里的letterbox函数使用opencv库里的resize和copyMakeBorder就可以实现保持高宽比的resize。此外，在网上有很多介绍nanodet网络结构的文章，但是在文章里没有对nanodet后处理模块做详细介绍的。因此，在编写这套程序时，我最关注的是nanodet的后处理模块，在nanodet网络输出之后，经过怎样的矩阵计算之后得到检测框的左上和右下两个顶点的坐标(x,y)的值的。接下来，我结合代码来理解后处理模块的运行原理。首先，原图经过预处理之后形成一个320x320的图片作为nanodet网络的输入，经过forward前向计算后会得到40x40，20x20，10x10这三种尺度的特征图（换言之就是原图缩小8倍，16倍，32倍），在程序代码里设断点调试，查看中间变量，截图如下：
 
@@ -82,4 +78,4 @@ nanodet通过一些论文里的trick组合起来得到了一个兼顾精度、�
 
 ![](./imgs/22.jpg)
 
-**Github传送门**：**https://github.com/hpc203/nanodet-opncv-dnn-cpp-python**
+**Github传送门**：[**https://github.com/hpc203/nanodet-opncv-dnn-cpp-python**](https://github.com/hpc203/nanodet-opncv-dnn-cpp-python)

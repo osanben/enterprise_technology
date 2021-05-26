@@ -142,7 +142,7 @@ conv3x3和conv3x3_parallel在我的笔记本电脑上运行时间对比如下：
 - Windows并发(运行时部分, Windows，MSVC++ >= 10自动使用)
 - Pthreads 
 
-在刚发布的[OpenCV 4.5.2版本](http://mp.weixin.qq.com/s?__biz=MjM5NTE3NjY5MA==&mid=2247485520&idx=1&sn=fbdcafdbdecb75cb327cbc91f280960d&chksm=a6fdc1cd918a48dbcd156126656c8c6a5c29618bf57669d1d5045573b3d7cc6e911b978967e6&scene=21#wechat_redirect)，增加了支持并行框架的选择。特殊编译的OpenCV可以允许选择并行后端，并/或通过plugin动态载入。如：
+在刚发布的OpenCV 4.5.2版本，增加了支持并行框架的选择。特殊编译的OpenCV可以允许选择并行后端，并/或通过plugin动态载入。如：
 
 ```
 # TBB plugin
@@ -160,8 +160,8 @@ cmake --build . --config Release
 
 参考资料：
 
-[1] https://docs.opencv.org/master/d7/dff/tutorial_how_to_use_OpenCV_parallel_for_.html
+[1] [https://docs.opencv.org/master/d7/dff/tutorial_how_to_use_OpenCV_parallel_for_.html](https://docs.opencv.org/master/d7/dff/tutorial_how_to_use_OpenCV_parallel_for_.html)
 
-[2] https://github.com/opencv/opencv/wiki/ChangeLog
+[2] [https://github.com/opencv/opencv/wiki/ChangeLog](https://github.com/opencv/opencv/wiki/ChangeLog)
 
-[3] https://github.com/opencv/opencv/pull/19470
+[3] [https://github.com/opencv/opencv/pull/19470](https://github.com/opencv/opencv/pull/19470)
