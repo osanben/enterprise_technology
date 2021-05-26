@@ -8,7 +8,7 @@ Transformer 自 2017 年推出以来，其架构就开始在 NLP 领域占据主
 
 ![](./imgs/1.jpg)
 
-论文链接：https://arxiv.org/pdf/2105.03824.pdf
+论文链接：[https://arxiv.org/pdf/2105.03824.pdf](https://arxiv.org/pdf/2105.03824.pdf)
 
 该研究的主要贡献包括：
 
@@ -32,7 +32,7 @@ CAD 模型中最难制作的部件之一就是高度结构化的 2D 草图，即
 
 ![](./imgs/3.png)
 
-论文链接：https://arxiv.org/pdf/2105.02769.pdf
+论文链接：[https://arxiv.org/pdf/2105.02769.pdf](https://arxiv.org/pdf/2105.02769.pdf)
 
 具体而言，研究者开展了以下工作：
 
