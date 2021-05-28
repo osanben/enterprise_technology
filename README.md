@@ -20,15 +20,9 @@
 
 [TensorFlow和PyTorch迎来了后浪-2020-08-02](./OneFlow/TensorFlow和PyTorch迎来了后浪-2020-08-02.md)
 
-[一流科技登上开源供应商名录-2021-05-20](./OneFlow/一流科技登上开源供应商名录-2021-05-20.md)
-
 ### 2021-05-25
 
 [张建浩：一个开源爱好者的框架开发之路  OneFlow U-2021-05-21](./OneFlow/张建浩：一个开源爱好者的框架开发之路  OneFlow U-2021-05-21.md)
-
-### 2021-05-24
-
-[OneFlow 线上交流会I Eager 项目讨论-2020-08-04](./OneFlow/OneFlow 线上交流会I Eager 项目讨论-2020-08-04.md)
 
 往期精彩链接: [点击这里](./OneFlow)
 
