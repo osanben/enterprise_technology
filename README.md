@@ -24,20 +24,6 @@
 
 ## PaddlePaddle
 
-### 2021-05-27
-
-[飞桨模型在地平线开发板的部署-2021-05-26](./PaddlePaddle/飞桨模型在地平线开发板的部署-2021-05-26.md)
-
-### 2021-05-26
-
-[WAVE SUMMIT 2021飞桨九大全新发布，敲响产业智能化升级最强音-2021-05-21](./PaddlePaddle/WAVE SUMMIT 2021飞桨九大全新发布，敲响产业智能化升级最强音-2021-05-21.md)
-
-[PaddlePaddle2.1.0 Release Note-2021-05-19](./PaddlePaddle/PaddlePaddle2.1.0 Release Note-2021-05-19.md)
-
-### 2021-05-25
-
-[基于飞桨实现高精度岩相自动分析，助力油气田勘探开发设计-2021-05-24](./PaddlePaddle/基于飞桨实现高精度岩相自动分析，助力油气田勘探开发设计-2021-05-24.md)
-
 ### 2021-05-24
 
 [本周AI热点回顾：傅里叶变换取代Transformer，GPU上快7倍、TPU上快2倍；DeepMind新模型自动生成CAD草图-2021-05-23](./PaddlePaddle/本周AI热点回顾：傅里叶变换取代Transformer，GPU上快7倍、TPU上快2倍；DeepMind新模型自动生成CAD草图-2021-05-23.md)
@@ -50,15 +36,9 @@
 
 [微信二维码引擎OpenCV开源！3行代码让你拥有微信扫码能力-2021-01-31](./OpenCV/微信二维码引擎OpenCV开源！3行代码让你拥有微信扫码能力-2021-01-31.md)
 
-[OpenCV-Python成为官方OpenCV项目-2021-02-26](./OpenCV/OpenCV-Python成为官方OpenCV项目-2021-02-26.md)
-
 ### 2021-05-25
 
 [用OpenCV实现条形码识别-2021-04-22](./OpenCV/用OpenCV实现条形码识别-2021-04-22.md)
-
-[OpenCV中的并行计算parallel_for_(1)-2021-04-07](./OpenCV/OpenCV中的并行计算parallel_for_(1)-2021-04-07.md)
-
-[OpenCV 4.5.2 发布-2021-04-06](./OpenCV/OpenCV 4.5.2 发布-2021-04-06.md)
 
 [用OpenCV实现超轻量的NanoDet目标检测模型-2021-03-17](./OpenCV/用OpenCV实现超轻量的NanoDet目标检测模型-2021-03-17.md)
 
