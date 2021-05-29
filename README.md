@@ -87,3 +87,5 @@ ok, decoded_info, decoded_type, corners = bardet.detectAndDecode(img)
 ## 参考文献
 
 王祥敏，汪国有. 一种基于方向一致性的条码定位算法[EB/OL]. 北京：中国科技论文在线 [2015-04-22]. [http://www.paper.edu.cn/releasepaper/content/201504-338](http://www.paper.edu.cn/releasepaper/content/201504-338)
+
+![](1.png)
