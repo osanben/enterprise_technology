@@ -1,8 +1,8 @@
 # 用OpenCV实现条形码识别
 
-最近，我们为OpenCV贡献了一维条形码识别模块，代码收录在：https://github.com/opencv/opencv_contrib/tree/master/modules/barcode
+最近，我们为OpenCV贡献了一维条形码识别模块，代码收录在：[https://github.com/opencv/opencv_contrib/tree/master/modules/barcode](https://github.com/opencv/opencv_contrib/tree/master/modules/barcode)
 
-我们收集的数据集（数据集地址：https://github.com/SUSTech-OpenCV/BarcodeTestDataset，共250张条码图片）上进行了测试，我们的识别算法正确率达到了**96%**，速度为**20ms**每张图像。作为对比，我们也测试了ZXing在该数据集上的表现，其正确率为**64.4%**，速度为**90ms**每张图像。
+我们收集的数据集（数据集地址：[https://github.com/SUSTech-OpenCV/BarcodeTestDataset](https://github.com/SUSTech-OpenCV/BarcodeTestDataset)，共250张条码图片）上进行了测试，我们的识别算法正确率达到了**96%**，速度为**20ms**每张图像。作为对比，我们也测试了ZXing在该数据集上的表现，其正确率为**64.4%**，速度为**90ms**每张图像。
 
 注：测试速度不包含初始化以及读图时间。同时，我们的算法是C++实现，ZXing是Java实现。另外，对于用图片数据集进行的测试，ZXing99%的时间是在做彩色图到灰度图的转换。
 
@@ -12,17 +12,17 @@
 
 条形码是将宽度不等的多个黑条和空白，按照一定的编码规则排列，用以表达一组信息的图形标识符，如下图所示：
 
-![](./imgs/1.png)
+![](imgs/1.png)
 
 ## 基于方向一致性的条码定位算法
 
 根据条形码方向趋于一致的特点，我们可以将图像分块，通过计算每个块内**梯度方向的一致性**，来滤除那些**低一致性**的块。下图是筛选过后剩下的块：
 
-![](./imgs/2.png)
+![](imgs/2.png)
 
 由于包含条码区域的块**一定连续存在**的特性，我们可以通过对这些图像块再进行一个改进的**腐蚀**操作过滤掉部分背景图像块。下图是滤除部分背景图像块后剩余的块：
 
-![](./imgs/3.png)
+![](imgs/3.png)
 
 得到这些块之后，我们再根据每个图像块内的**平均梯度方向进行连通**。因为如果是相邻的图像块都属于同一个条码的话，那么他们的平均梯度方向也一定相同。
 
@@ -30,17 +30,17 @@
 
 最后，用**最小外接矩形**去拟合每个连通区域，并计算外界矩形的方向是否和连通区域内的平均梯度方向一致，过滤掉差距较大的连通区域。将平均梯度方向作为矩形的方向，并将矩形作为最终的定位框。
 
-![](./imgs/4.png)
+![](imgs/4.png)
 
 ## 条形码解码
 
 目前我们支持了三种类型的条码解码，它们分别是EAN13、 EAN8 和UPC-A。(下图为EAN13 条码示例)
 
-![](./imgs/5.png)
+![](imgs/5.png)
 
 条码的识别主要流程如下图：
 
-![](./imgs/6.png)
+![](imgs/6.png)
 
 其中：
 
@@ -82,8 +82,8 @@ img = cv2.imread("your file path")
 ok, decoded_info, decoded_type, corners = bardet.detectAndDecode(img)
 ```
 
-更多使用方式请参考文档：https://docs.opencv.org/master/dc/df7/classcv_1_1barcode_1_1BarcodeDetector.html
+更多使用方式请参考文档：[https://docs.opencv.org/master/dc/df7/classcv_1_1barcode_1_1BarcodeDetector.html](https://docs.opencv.org/master/dc/df7/classcv_1_1barcode_1_1BarcodeDetector.html)
 
 ## 参考文献
 
-王祥敏，汪国有. 一种基于方向一致性的条码定位算法[EB/OL]. 北京：中国科技论文在线 [2015-04-22]. http://www.paper.edu.cn/releasepaper/content/201504-338
+王祥敏，汪国有. 一种基于方向一致性的条码定位算法[EB/OL]. 北京：中国科技论文在线 [2015-04-22]. [http://www.paper.edu.cn/releasepaper/content/201504-338](http://www.paper.edu.cn/releasepaper/content/201504-338)
