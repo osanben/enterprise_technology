@@ -366,3 +366,5 @@ https://github.com/Oneflow-Inc/OneFlow-Benchmark/tree/master/LanguageModeling/GP
 参考文献
 
 [1] Tianqi Chen, Bing Xu, Chiyuan Zhang, and Carlos Guestrin. Training Deep Nets with Sublinear Memory Cost. arXiv preprint arXiv:1604.06174, 2016.
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210603140942.png)
