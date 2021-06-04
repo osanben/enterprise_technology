@@ -84,6 +84,4 @@ STE 模块目的是为了从不同风格的图像中提取领域不变的结构�
 
 地址：[https://arxiv.org/pdf/2104.00877.pdf](https://arxiv.org/pdf/2104.00877.pdf)
 
-代码：[https://github.com/microsoft/S2R-DepthNet](https://github.com/microsoft/S2R-DepthNet)
-
 ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210603140942.png)
