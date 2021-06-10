@@ -49,7 +49,7 @@
 
 推荐：1.3 亿突触、数万神经元，谷歌、哈佛发布史上最强三维「人脑地图」。
 
-**论文 4：BalanceControlof aNovelWheel-leggedRobot:DesignandExperiments**
+**论文 4：Balance Control of a Novel Wheel-legged Robot: Design and Experiments**
 
 - 作者：ShuaiWang、LeileiCui2,∗,JingfanZhang 等
 - 网盘链接：[https://pan.baidu.com/s/1S84x03gYg9YfMshndBBbPw](https://pan.baidu.com/s/1S84x03gYg9YfMshndBBbPw)
