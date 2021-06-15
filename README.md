@@ -1,90 +1,83 @@
-# 机器人真·涨姿势了：比肩人类抓取能力，上海交大、非夕科技联合提出全新方法AnyGrasp
+# 7亿后台日志揭秘程序员如何面向Stack Overflow编程：获SIGSOFT杰出论文奖
 
-在近日召开的 ICRA （国际机器人与自动化会议）大会上，上海交大-非夕科技联合实验室展示了最新研究成果「AnyGrasp」（[https://graspnet.net/anygrasp.html](https://graspnet.net/anygrasp.html)），第一次实现机器人对于任意场景的任意物体的通用高速抓取，在机械臂硬件构型、相机不作限制的情况下，让机器人拥有比肩人类抓取能力的可能。
+> 你知道程序员是如何寻（fu）找（zhi）答（zhan）案（tie）的吗？
 
-基于视觉的机器人通用抓取，一直是学界和业界的关注重点，也是机器人智能领域亟待解决的问题之一。
+作为全世界最流行的编程问答网站，Stack Overflow 已经成为全世界程序员的福音，面向 Stack Overflow 编程成了程序员的必备技能。
 
-针对物体抓取，业界通常需要先对物体进行三维建模，然后训练网络，在实际中先进行位姿检测，再进行抓取：
+在发表于全球软件工程年会 ICSE 2021 上的论文《Automated Query Reformulation for Efficient Search based on Query Logs From Stack Overflow》中，研究者通过分析 Stack Overflow 后台服务器中的超过 7 亿条日志，揭秘了程序员是如何寻（fu）找（zhi）答（zhan）案（tie）的，并提出了一种基于深度学习的自动化查询重构方法，该论文获得了 ACM SIGSOFT Distinguished Paper Award。
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150310.png)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093847.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150332.png)
+论文地址：[https://arxiv.org/abs/2102.00826](https://arxiv.org/abs/2102.00826)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150409.png)
+**大家什么时候在摸鱼？**
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150423.png)
+该研究使用的数据集包含 Stack Overflow 网站上 2017 年 12 月至 2018 年 11 月间的 7 亿多条 HTTP 请求。从月份维度来看，全年间网站的访问量基本保持稳定，年底的时候大家不得不为了 KPI 而（稍微）奋斗一些。
 
-此前对于简单场景简单物体的抓取，学术界也有研究涉猎。但是机器人日常面对的都是大量堆叠的、复杂的、没有见过的物体，同时场景呈现极度的杂乱性，还没有相关研究可直接面对任意复杂场景进行抓取。
+​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093923.png)
 
-我们能否期待一个通用算法，能像人类一样具备面向任意场景、任意物体的抓取能力？ 
+以周为单位来看就非常 amazing 了，工作日用户的活动数量约为休息日活动数量的三倍，周六和周日没有太大的差别，看来大部分程序员都是忠实的 955 工作理念的践行者，那其他人呢？大小周？996？不存在的，他们都是 007。
 
-譬如，当杯子被敲碎，每个碎片都是未曾出现过的，机器人可以将这些从未见过、更未被建模的碎片一片片捡起来：
+ ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093941.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150737.png)
+**大家都在搜什么？**
 
-*搭载AnyGrasp的机器人首秀*
+随着 Python 编程语言近两年的火热，Python 理所当然地成为了最常搜索的关键词之一。编程语言、数据结构、API 名称等软件术语占据了用户查询词的大多数。
 
-同时，它还要能适应更多的不确定性。比如一堆来自新疆戈壁滩的玛瑙石，细小且局部复杂：
+ ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093958.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150759.png)
+遇事不决就 how to，一言不合就贴错误日志，程序员的搜索方式你们 get 了吗？
 
-再比如在日常场景经常会遇到的会随机形变的柔性袋装零食或者布娃娃：
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094014.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150824.png)
+大部分的查询字符串的单词数都是很有限的，查询中包含的单词数的平均值为 3.6，中位数为 3，但也存在一定数量的超长查询，最长的甚至有 100 + 个单词，你猜猜他们都查了个啥？没错，错误日志。
 
-以及各种玩具、五金件、日常用品：
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094031.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150842.png)
+**高级查询你学废了吗？**
 
-甚至人造的形状复杂的对抗样本 [1]：
+8.74% 的查询使用了高级查询语法，其中 “标签过滤”、“用户过滤” 和“特殊短语声明”三项占据了总数量的 93% 以上。由于 “用户过滤” 是在用户点击 profile 的时候自动触发的，因此可以排除在外，那么用户最常用的高级查询也就是标签过滤了，通配符和多重标签等比较复杂的语法规则大部分用户基本不会使用。
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150901.png)
+Stack Overflow 提供的高级查询语法规则：[https://stackoverflow.com/help/searching](https://stackoverflow.com/help/searching)
 
-更极端的，如果光照情况不好，同时有探照灯的干扰，桌面还会变化，机器人能不能稳定地抓取？
+​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094055.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614150919.png)
+**搜不到结果怎么办？**
 
-在这些方面，尚且没有研究能达到稳定的抓取效果，甚至没有前期可论证的 DEMO。此前来自 UCB 的研究团队发表于《Science Robotics》的成果 DexNet4.0 [2]，也只局限于低自由度的垂直抓取，同时需要搭配价值数万元的工业级高精度深度相机，计算一次耗时数十秒。
+当无法检索到满意结果时，程序员一般来说是绝望的，这报错解决不了今天是不想睡觉了吗？DDL（最后期限）马上就到了，能怎么办？改呗，把查询词修改下，再看看能不能查到想要的问题。
 
-近日，上海交大-非夕科技联合实验室在 ICRA 大会上展示了最新研究成果「AnyGrasp」，基于二指夹爪的通用物体抓取。这是**第一次机器人对于任意场景的任意物体，有了比肩人类抓取的能力，**无需物体 CAD 模型与检测的过程，对硬件构型、相机也没有限制。
+怎么改？这是一个好问题，一起来看看程序员是怎么做的吧。
 
-仅需要一台 1500 元的 RealSense 深度相机，AnyGrasp 即可在数十毫秒的时间内，得到其观测视野内整个场景的数千个抓取姿态，且均为六自由度，以及一个额外的宽度预测。在五小时复杂堆叠场景的抓取中，单臂 MPPH（Mean Pick Per Hour, 单位小时内平均抓取次数）可达到 850+，为 DexNet4.0 的三倍多，这是该指标第一次在复杂场景抓取上接近人类水平（900-1200 MPPH）。
+该研究将修改查询的模式（查询重构模式）分为了增加、修改和删除三个类别，其中每个大类又细分成 2~3 个小类。不难看出增加编程语言或平台限制、拼写与语法检查、需求细化是最常见的查询重构模式。
 
-以下为搭载 AnyGrasp 的最新成果展示，在六轴机械臂上：
+​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094119.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614151004.png)
+**修改查询时，改动量大吗？**
 
-在七轴机械臂上：
+用户修改查询的时候是只会修改少数的单词或字符，还是会更换整个查询的表达方式呢？该研究对查询重构的修改幅度的实证研究结果显示，在 58.07% 的样本中，原查询与重构后的查询的相似度都大于 0.7，修改涉及的字符数量仅约等于一个查询词的字符数。
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614151042.png)
+ ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094132.png)
 
-在ICRA2021的展区内，搭载AnyGrasp的机器人更是走出了实验室，在现场直接对没见过的物体进行抓取，同时与参会观众进行互动，由现场观众自由发挥，用随身的物品、捏的橡皮泥对它进行考验，机器人都能进行稳定的抓取。
+**自动执行查询重构**
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614151120.png)
+基于实证研究的结果，该研究认为软件领域的查询重构模式众多，通过设计基于规则的启发式方法来实现软件领域的查询重构费时且容易出错，相反不涉及大幅修改的查询重构可以通过深度学习模型来建模。该论文提出了一种基于 Transformer 的软件领域查询重构方法 SEQUER。
 
-研究团队介绍，目前 AnyGrasp 有以下优势：
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094158.png)
 
-- 普适性：对未曾见过、复杂场景中的任意物体均可抓取，包括刚体、可变形物体、无纹理的物体等；
-- 高速度：数十毫秒内即可生成数千个稳定的抓取姿态；
-- 稳定性：对背景、光照、桌面角度等不敏感；
-- 低成本：无需高精度工业相机，千元价位的深度相机（如 Intel RealSense）即可胜任。
+SEQUER 首先基于启发式规则从用户的活动日志中抽取查询重构序列，并构造查询重构对，然后使用这些语料训练了一个基于 Transformer 的模型，在完成模型训练后，当给定原查询，模型可以直接输出重构后的查询，相较于原查询，该重构后的查询可以更好地检索出用户满意的查询结果。
 
-技术层面上，AnyGrasp 的实现是基于研究团队提出的一个全新方法论，即真实感知与几何分析的孪生联结。真实感知与密集几何标注原本是矛盾的两方面，因为真实感知往往需要人工标注，而几何分析需依赖仿真环境，此前未曾有团队在这方面进行过尝试。
+通过与五种最新基准方法的比较，SEQUER 给出的查询重构结果不仅更接近用户的手工重构，而且在检索用户满意的帖子任务上具有更好的性能。
 
-在 CVPR 2020 会议上，上海交大团队提出了 GraspNet-1Billion 数据集 [3]，其中包含数万张单目摄像头采集的真实场景的 RGBD 图像，每张图片中包含由基于物理受力分析得到的数十万个抓取点，数据集中总共包含超过十亿有效抓取姿态。为了达到真实感知与几何分析的孪生联结目标，团队设计了一个半自动化的数据收集与标注方法，使得大规模地生成包含真实视觉感知与物理分析标签的数据成为可能。该数据集及相关代码目前已经开源。
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094216.png)
 
-基于 GraspNet-1Billion 数据集，团队开发了一套新的可抓取性（graspness）嵌入端到端三维神经网络结构，在单目点云上直接预测整个场景可行的抓取姿态，根据采样密度，抓取姿态可从数千到数万不等，整个过程仅需数十毫秒。基于全场景的密集的抓取姿态，后续任务可根据目标及运动约束选择合适的抓取位姿。
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094232.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210614151146.png)
+对查询重构结果的深入分析结果显示，SEQUER 能够实现很多基准方法无法实现的查询重构模式，包括纠正错误的拼写，例如修正 how to import bumpy array 中的 bumpy 为 numpy；为查询增加编程语言或平台限制，例如从 requests negotiate 到[python] requests negotiate；删除查询中的特异信息，例如 truncated for column 'status'中的 status；用文字代替符号，例如从 a* search 到 a star search。
 
-目前，AnyGrasp 还在持续开发与迭代中，后续研究团队计划构建抓取算法数据社区 ，并开放抓取任务在线测评。相关的学术数据集、SDK、学术算法库将在 **www.graspnet.net** 上开放。
+为了方便开发人员使用该论文提出的查询重构方法，研究者设计并上线了一款软件领域的查询重构插件，该插件可以为用户的查询生成 10 个候选的查询重构结果。
 
-参考链接：
+​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094303.png)
 
-【1】EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation，Douglas Morrison , Peter Corke , Jurgen Leitner,IEEE Robotics & Automation Letters, 2020
+插件网址：[https://github.com/kbcao/sequer](https://github.com/kbcao/sequer)
 
-【2】Learning ambidextrous robot grasping policies, Jeffrey Mahler, Matthew Matl, Vishal Satish, Michael Danielczuk, Bill DeRose, Stephen McKinley, Ken Goldberg, Science Robotics, 2019
-
-【3】GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping, Hao-Shu Fang; Chenxi Wang; Minghao Gou; Cewu Lu, CVPR, 2020
-
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210608112105.png)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093836.png)
