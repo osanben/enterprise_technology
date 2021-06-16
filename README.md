@@ -1,83 +1,156 @@
-# 7亿后台日志揭秘程序员如何面向Stack Overflow编程：获SIGSOFT杰出论文奖
+# “搏一搏，单车变摩托！”华为天才少年耗时四个月，将自行车强势升级为自动驾驶
 
-> 你知道程序员是如何寻（fu）找（zhi）答（zhan）案（tie）的吗？
+自动驾驶火出天际的时代，自行车能「金鸡独立」，还能「风驰电掣」？
 
-作为全世界最流行的编程问答网站，Stack Overflow 已经成为全世界程序员的福音，面向 Stack Overflow 编程成了程序员的必备技能。
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094507.png)
 
-在发表于全球软件工程年会 ICSE 2021 上的论文《Automated Query Reformulation for Efficient Search based on Query Logs From Stack Overflow》中，研究者通过分析 Stack Overflow 后台服务器中的超过 7 亿条日志，揭秘了程序员是如何寻（fu）找（zhi）答（zhan）案（tie）的，并提出了一种基于深度学习的自动化查询重构方法，该论文获得了 ACM SIGSOFT Distinguished Paper Award。
+近日，一位来自 B 站的硬核 up 主稚晖君带着一辆改装之后的自动驾驶自行车震撼亮相，他还发布了一个名为《我把自行车做成了自动驾驶！！》的视频，短短几天内，获得 180w+ 的播放量，且曾达到全站排行榜第 1 名。
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093847.png)
+与此同时，这条视频还吸引了 B 站 CEO 陈睿的强势围观，并赞其「重新定义“自行车”」。
 
-论文地址：[https://arxiv.org/abs/2102.00826](https://arxiv.org/abs/2102.00826)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094531.png)
 
-**大家什么时候在摸鱼？**
+而要问是什么让这位博主耗时四个月非要与一辆自行车“过不去”？
 
-该研究使用的数据集包含 Stack Overflow 网站上 2017 年 12 月至 2018 年 11 月间的 7 亿多条 HTTP 请求。从月份维度来看，全年间网站的访问量基本保持稳定，年底的时候大家不得不为了 KPI 而（稍微）奋斗一些。
+是因为无聊？对自行车的热爱？还是因为对技术的执着？
 
-​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093923.png)
+其实都不是！
 
-以周为单位来看就非常 amazing 了，工作日用户的活动数量约为休息日活动数量的三倍，周六和周日没有太大的差别，看来大部分程序员都是忠实的 955 工作理念的践行者，那其他人呢？大小周？996？不存在的，他们都是 007。
+**自行车自行车，不会自行怎么配叫自行车？**
 
- ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093941.png)
+这个项目得以诞生的很大一部分原因或要归功于天气。
 
-**大家都在搜什么？**
+某一天，天空不作美，飘着雨，骑着车的稚晖君在转弯的时候因为一个“漂移”，一不小心摔了一跤。
 
-随着 Python 编程语言近两年的火热，Python 理所当然地成为了最常搜索的关键词之一。编程语言、数据结构、API 名称等软件术语占据了用户查询词的大多数。
+在养伤的过程中，稚晖君自我调侃道，“作为一个掌握了技术密码，并且永远头铁的野生钢铁侠，我表示这事就不能这么过去了。”
 
- ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093958.png)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094603.png)
 
-遇事不决就 how to，一言不合就贴错误日志，程序员的搜索方式你们 get 了吗？
+同时，受 2019 年清华大学依托精密仪器系的类脑计算研究中心施路平教授团队发布的类脑计算芯片“天机芯”让无人自行车落地的启发，在天空放晴之后，素有“科技教徒”、“野生钢铁侠”之称的稚晖君决定要拯救一下这个糟糕的天气，哦，不，是糟糕的自行车。
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094014.png)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094619.png)
 
-大部分的查询字符串的单词数都是很有限的，查询中包含的单词数的平均值为 3.6，中位数为 3，但也存在一定数量的超长查询，最长的甚至有 100 + 个单词，你猜猜他们都查了个啥？没错，错误日志。
+于是，他开始着手了自动驾驶之自行车的设计与落地之路，毕竟“如果自己不能跑，凭什么叫它自行车！”
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094031.png)
+**自动驾驶自行车三步走**
 
-**高级查询你学废了吗？**
+所谓自动驾驶自行车，首先要实现自动，众所周知，两个轮子的自行车在没有外力的支撑下，几乎不能站稳，因此相较四轮的汽车，自动驾驶自行车首先需要解决车子“立”起来的问题，这就需要一套**自动控制系统**；其次，需要将驾驶人的存在性消除，这需要**靠传感器网络、AI 芯片来实现**；最后，要实现“驾驶”，即车子需要跑起来，其背后离不开**软件与算法的存在**。
 
-8.74% 的查询使用了高级查询语法，其中 “标签过滤”、“用户过滤” 和“特殊短语声明”三项占据了总数量的 93% 以上。由于 “用户过滤” 是在用户点击 profile 的时候自动触发的，因此可以排除在外，那么用户最常用的高级查询也就是标签过滤了，通配符和多重标签等比较复杂的语法规则大部分用户基本不会使用。
+为了实现以上，稚晖君主要从三个维度出发，逐个击破，开始改装传统的自行车。
 
-Stack Overflow 提供的高级查询语法规则：[https://stackoverflow.com/help/searching](https://stackoverflow.com/help/searching)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094642.png)
 
-​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094055.png)
+**第一步：硬件改造**
 
-**搜不到结果怎么办？**
+- **设备**
 
-当无法检索到满意结果时，程序员一般来说是绝望的，这报错解决不了今天是不想睡觉了吗？DDL（最后期限）马上就到了，能怎么办？改呗，把查询词修改下，再看看能不能查到想要的问题。
+视频中，稚晖君采用的是一款骑行爱好者颇为喜欢的自行车——死飞（Fixed Gear）自行车。这款车和普通的自行车有一定的区别，是一款单速车，其车轮和脚踏板一直是处于联动状态下，没有刹车，如果想减速可以通过反向蹬车来实现。
 
-怎么改？这是一个好问题，一起来看看程序员是怎么做的吧。
+- **建模**
 
-该研究将修改查询的模式（查询重构模式）分为了增加、修改和删除三个类别，其中每个大类又细分成 2~3 个小类。不难看出增加编程语言或平台限制、拼写与语法检查、需求细化是最常见的查询重构模式。
+重构，首先要先搞清楚自己想法的可行性与理想状态，这就需要通过设计与模拟、验证来实现。
 
-​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094119.png)
+在此，稚晖君使用的是计算机辅助工具 CAD 实现建模工作，构建了自行车的数字孪生，基于此，所有的改造工作都可以在计算机上完成。
 
-**修改查询时，改动量大吗？**
+- **设计图纸**
 
-用户修改查询的时候是只会修改少数的单词或字符，还是会更换整个查询的表达方式呢？该研究对查询重构的修改幅度的实证研究结果显示，在 58.07% 的样本中，原查询与重构后的查询的相似度都大于 0.7，修改涉及的字符数量仅约等于一个查询词的字符数。
+经过多番斟酌之后，稚晖君将构想落地到了图纸上：
 
- ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094132.png)
+1. 车头处安装一个控制龙头的舵机，顾名思义，它是用来控制龙头的，包括转向等；传感器方面搭载一个 RGBD 深度相机，可以用于识别前方物体，进行避障或跟随；
 
-**自动执行查询重构**
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094716.png)
 
-基于实证研究的结果，该研究认为软件领域的查询重构模式众多，通过设计基于规则的启发式方法来实现软件领域的查询重构费时且容易出错，相反不涉及大幅修改的查询重构可以通过深度学习模型来建模。该论文提出了一种基于 Transformer 的软件领域查询重构方法 SEQUER。
+2. 自行车车杆处安装一个加速度计、陀螺仪，另外还有一个激光雷达，主要用于自动驾驶的路径规划；
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094158.png)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094728.png)
 
-SEQUER 首先基于启发式规则从用户的活动日志中抽取查询重构序列，并构造查询重构对，然后使用这些语料训练了一个基于 Transformer 的模型，在完成模型训练后，当给定原查询，模型可以直接输出重构后的查询，相较于原查询，该重构后的查询可以更好地检索出用户满意的查询结果。
+3. 下方搭载一个 6S 航模动力锂电池，续航可达 2-3 个小时；
 
-通过与五种最新基准方法的比较，SEQUER 给出的查询重构结果不仅更接近用户的手工重构，而且在检索用户满意的帖子任务上具有更好的性能。
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094750.png)
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094216.png)
+4. 座椅处前后安装了 2 个无刷电机，它们的主要作用是让两轮的自行车在静止且无外力支撑状态下可以屹立不倒，其中运用到的原理是物理学、自然界普遍存在的基本定律之一——角动量守恒定律![Image](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujybC5S0lCnC9TRRLwDibMyjbk56rjCGxLOohnR0vL1JWXibHrvbHx6s096icqYhq5sdRWpt5Xa1Bnyg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)，即当系统中的一个物体角动量发生变化时，其会将力矩传递给其他物体。因此，在自行车中间的这个无刷电机就是用于驱动一个金属的动量轮，而后面的无刷电机是用于靠摩擦力驱动后轮，让车子整体前后运动；
 
-![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094232.png)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094806.png)
 
-对查询重构结果的深入分析结果显示，SEQUER 能够实现很多基准方法无法实现的查询重构模式，包括纠正错误的拼写，例如修正 how to import bumpy array 中的 bumpy 为 numpy；为查询增加编程语言或平台限制，例如从 requests negotiate 到[python] requests negotiate；删除查询中的特异信息，例如 truncated for column 'status'中的 status；用文字代替符号，例如从 a* search 到 a star search。
+5.主控计算模块安置在了座椅的后方，其中包含了 AI 计算单元等。
 
-为了方便开发人员使用该论文提出的查询重构方法，研究者设计并上线了一款软件领域的查询重构插件，该插件可以为用户的查询生成 10 个候选的查询重构结果。
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094824.png)
 
-​    ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615094303.png)
+基于以上，完整的设计图纸如下所示：
 
-插件网址：[https://github.com/kbcao/sequer](https://github.com/kbcao/sequer)
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094844.png)
+
+- **零件加工**
+
+针对零件部分，部分可以用 3D 打印制作而成，不过，有的零件对硬度和刚性要求较强，因此只能利用金属加工而成。在加工好所有的零件之后，组装好即可。
+
+**第二步：智能化**
+
+接下来，进入了第二个大环节——电路系统设计与安装，这其中包含了主控模块，旨在让车子跑起来。
+
+作为 AI 算法工程师的稚晖君，将电路系统的机器大脑分为两大板块：
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094859.png)
+
+- 一个是用于控制身体的低算力、低时延、运行实时系统的小脑，这一项目中，稚晖君使用的是 MCU ESP32；
+- 另一个是用于感知、思考和决策的高算力、高时延、运行非实时操作系统的大脑，这里稚晖君选择的是华为面向边缘场景的高能效高集成度 AI 处理器——昇腾310，其搭载的达芬奇 Core 可以提供最高 22TOPS 的AI 算力。
+
+通过一个载板将上述的两个计算单元整合到一起。在 PCB 打样之后，基于通过手工焊接方式，将大脑和小脑通过总线相连。
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094916.png)
+
+**第三步：软件&算法**
+
+在软件层面，稚晖君表示：
+
+- 小脑的框架主要是基于 FreeRTOS 来实现传感器的数据处理，以及电机的控制算法。其中简单地划分了三个任务，一是闭环控制线程、二是电机通信线程、三是屏幕刷新线程。
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094933.png)
+
+- 大脑的软件框架相对而言，复杂得多，除了基于昇腾的整个 AI 栈之外，在系统中还使用了机器人界常用的框架 ROS，其本质上是一个高性能的通信中间件，后续的消息分发、业务串流、SLAM 等实现都是基于 ROS 开发的。
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094947.png)
+
+基于此，小脑和大脑均已准备就绪。除了以上，稚晖君选用了其此前自制的 FOC 控制驱动器（https://www.bilibili.com/video/BV11V41127pq）作为电路的心脏，实现了两路共 100A 的无刷电机 FOC 控制，同时还顺便驱动了前面的 60 KG 舵机，以及一个散热风扇。
+
+在视频中，稚晖君透露，这个车子的控制代码中，包含了控制周期、反馈矩阵、PID 增益、滤波器截止频率、电机功率、飞轮质量、重心分布设置等 50 个重要参数，而这些参数都必须在合理的设置下，才能使得系统进入稳定状态。
+
+因此，在运行调试之前，稚晖君借助 Unity 引擎工具实现了一个虚拟的物理环境，在赋给自行车正式的质量、重力后，将控制算法的计算结果可视化显示出来。
+
+其次，通过 Sim2Real，将仿真结果迁移到现实环境中。当然在被诸多不定性因素包裹的现实世界中，其调试过程也并非想象中那么容易，正如稚晖君在视频中细数的点滴，如：
+
+在姿态控制中使用的是 LQR 控制器，方向控制使用了经典的 PID，传感器则是对加速度计和陀螺仪数据使用了二阶的巴特沃斯滤波器之后，再通过卡尔曼滤波进行数据融合，最终得到车身的姿态......
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616095002.png)
+
+**自动驾驶自行车——XUAN（轩）**
+
+几经“折腾”后，这个自行车不仅实现了基础的自动驾驶功能，而且能够自主探索环境。未来这个项目还有很大的提升空间，但当前的成果足以让人惊叹。
+
+当稚晖君将这款项目命名为——XUAN（extremely Unnatural Auto-Navigation）的同时，其宣布将项目的结构设计全部开源。
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616095026.png)
+
+**稚晖君本君！**
+
+值此之际，我们也不仅好奇稚晖君究竟是何方神圣？
+
+打开其个人网站，我们发现稚晖君虽然仅毕业三年，但是其在编程开发、硬件设计等层面早已身经百战。据悉，在学生时期，稚晖君从大二开始就参加了各种电子设计竞赛，并获得大量奖项。大三时，开始成立团队和工作室，专注于嵌入式软硬件和机器人项目的开发。研究生阶段，组建创业团队与公司，聚焦尖端机器人相关技术的研发，也获得过一些投资。
+
+在 2018 年从电子科技大学毕业后，稚晖君加入 OPPO 研究院 AI 实验室，负责算法相关工作，后成为华为天才少年项目中的一员，目前担任华为 AI 算法工程师。
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616095049.png)
+
+与此同时，他从 2017 年便开始在 B 站上开启了【自制】之路，除了此次自制自动驾驶自行车之外，还自制过便携显示器、FOC 矢量控制驱动器、火星车、门禁卡等等，其背后所运用的知识广度与宽度不容小觑，而稚晖君的技术能力也更令人佩服。
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616095103.png)
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616095122.png)
+
+**相关资料**：
+
+- 视频地址：[https://www.bilibili.com/video/BV1fV411x72a](https://www.bilibili.com/video/BV1fV411x72a)
+- GitHub 项目开源地址：[https://github.com/peng-zhihui/XUAN-Bike](https://github.com/peng-zhihui/XUAN-Bike)
+- 个人网站：[http://www.pengzhihui.xyz/](http://www.pengzhihui.xyz/)
 
 ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210615093836.png)
