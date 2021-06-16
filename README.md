@@ -68,7 +68,7 @@
 
 ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094750.png)
 
-4. 座椅处前后安装了 2 个无刷电机，它们的主要作用是让两轮的自行车在静止且无外力支撑状态下可以屹立不倒，其中运用到的原理是物理学、自然界普遍存在的基本定律之一——角动量守恒定律![Image](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujybC5S0lCnC9TRRLwDibMyjbk56rjCGxLOohnR0vL1JWXibHrvbHx6s096icqYhq5sdRWpt5Xa1Bnyg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)，即当系统中的一个物体角动量发生变化时，其会将力矩传递给其他物体。因此，在自行车中间的这个无刷电机就是用于驱动一个金属的动量轮，而后面的无刷电机是用于靠摩擦力驱动后轮，让车子整体前后运动；
+4. 座椅处前后安装了 2 个无刷电机，它们的主要作用是让两轮的自行车在静止且无外力支撑状态下可以屹立不倒，其中运用到的原理是物理学、自然界普遍存在的基本定律之一——角动量守恒定律![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616095558.png)，即当系统中的一个物体角动量发生变化时，其会将力矩传递给其他物体。因此，在自行车中间的这个无刷电机就是用于驱动一个金属的动量轮，而后面的无刷电机是用于靠摩擦力驱动后轮，让车子整体前后运动；
 
 ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina/20210616094806.png)
 
