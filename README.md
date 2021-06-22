@@ -1,101 +1,87 @@
-# 2021/06/11-2021/06/18项目关注数增长排行榜
+# 6.22号优质项目推荐
 
-以下项目为2021/06/11-2021/06/18期间，根据项目关注数增长做的排行榜，每周更新一次
+以下项目为2021/06/11-2021/06/18期间，根据项目关注数增长挑选出来的
 
-| 项目                                                       | 链接                                                         |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| hihell/python120                                           | https://codechina.csdn.net/hihell/python120                  |
-| mirrors/ultralytics/yolov5                                 | https://codechina.csdn.net/mirrors/ultralytics/yolov5        |
-| mirrors/vuejs/vue-devtools                                 | https://codechina.csdn.net/mirrors/vuejs/vue-devtools        |
-| csdn_codechina/enterprise_technology                       | https://codechina.csdn.net/csdn_codechina/enterprise_technology |
-| EricLee/handpose_x                                         | https://codechina.csdn.net/EricLee/handpose_x                |
-| csdn_codechina/deep_learning                               | https://codechina.csdn.net/csdn_codechina/deep_learning      |
-| csdn_codechina/dataset                                     | https://codechina.csdn.net/csdn_codechina/dataset            |
-| mirrors/mobz/elasticsearch-head                            | https://codechina.csdn.net/mirrors/mobz/elasticsearch-head   |
-| mirrors/vuejs-templates/webpack                            | https://codechina.csdn.net/mirrors/vuejs-templates/webpack   |
-| geeknews/CSDN-Developer-Weekly                             | https://codechina.csdn.net/geeknews/CSDN-Developer-Weekly    |
-| mirrors/LiuKay/WareHouseManagSys                           | https://codechina.csdn.net/mirrors/LiuKay/WareHouseManagSys  |
-| mirrors/PanJiaChen/vue-element-admin                       | https://codechina.csdn.net/mirrors/PanJiaChen/vue-element-admin |
-| mirrors/alibaba/easyexcel                                  | https://codechina.csdn.net/mirrors/alibaba/easyexcel         |
-| csdn_codechina/frequency_command                           | https://codechina.csdn.net/csdn_codechina/frequency_command  |
-| mirrors/lutzroeder/netron                                  | https://codechina.csdn.net/mirrors/lutzroeder/netron         |
-| dcloud/uni-starter                                         | https://codechina.csdn.net/dcloud/uni-starter                |
-| MiddlewareDesign/doc                                       | https://codechina.csdn.net/MiddlewareDesign/doc              |
-| mirrors/apache/incubator-echarts                           | https://codechina.csdn.net/mirrors/apache/incubator-echarts  |
-| mirrors/shaochen2015821426/music-player                    | https://codechina.csdn.net/mirrors/shaochen2015821426/music-player |
-| COPU/OCOW-2021                                             | https://codechina.csdn.net/COPU/OCOW-2021                    |
-| EricLee/dpcas                                              | https://codechina.csdn.net/EricLee/dpcas                     |
-| mirrors/bubbliiiing/yolo3-pytorch                          | https://codechina.csdn.net/mirrors/bubbliiiing/yolo3-pytorch |
-| mirrors/qwerty472123/wxappUnpacker                         | https://codechina.csdn.net/mirrors/qwerty472123/wxappUnpacker |
-| mirrors/tensorflow/tensorflow                              | https://codechina.csdn.net/mirrors/tensorflow/tensorflow     |
-| mirrors/antabot/white-jotter                               | https://codechina.csdn.net/mirrors/antabot/white-jotter      |
-| chasedream1129/SleepyCD                                    | https://codechina.csdn.net/chasedream1129/SleepyCD           |
-| mirrors/bubbliiiing/yolov4-pytorch                         | https://codechina.csdn.net/mirrors/bubbliiiing/yolov4-pytorch |
-| mirrors/gildas-lormeau/jsonview-for-chrome                 | https://codechina.csdn.net/mirrors/gildas-lormeau/jsonview-for-chrome |
-| mirrors/medcl/elasticsearch-analysis-ik                    | https://codechina.csdn.net/mirrors/medcl/elasticsearch-analysis-ik |
-| mirrors/google-research/bert                               | https://codechina.csdn.net/mirrors/google-research/bert      |
-| mirrors/microsoftarchive/redis                             | https://codechina.csdn.net/mirrors/microsoftarchive/redis    |
-| mirrors/tesseract-ocr/tessdata                             | https://codechina.csdn.net/mirrors/tesseract-ocr/tessdata    |
-| mirrors/ultralytics/yolov3                                 | https://codechina.csdn.net/mirrors/ultralytics/yolov3        |
-| qing_gee/csdn-book                                         | https://codechina.csdn.net/qing_gee/csdn-book                |
-| EricLee/yolo_v3                                            | https://codechina.csdn.net/EricLee/yolo_v3                   |
-| codechina/developer-roadmap/python/intro                   | https://codechina.csdn.net/codechina/developer-roadmap/python/intro |
-| mirrors/ecomfe/echarts-for-weixin                          | https://codechina.csdn.net/mirrors/ecomfe/echarts-for-weixin |
-| mirrors/audi-1/sqli-labs                                   | https://codechina.csdn.net/mirrors/audi-1/sqli-labs          |
-| mirrors/cheungchingyin/studentmanagementsystembyjsp        | https://codechina.csdn.net/mirrors/cheungchingyin/studentmanagementsystembyjsp |
-| mirrors/lenve/vhr                                          | https://codechina.csdn.net/mirrors/lenve/vhr                 |
-| mirrors/philferriere/cocoapi                               | https://codechina.csdn.net/mirrors/philferriere/cocoapi      |
-| mirrors/qqwweee/keras-yolo3                                | https://codechina.csdn.net/mirrors/qqwweee/keras-yolo3       |
-| mirrors/steveloughran/winutils                             | https://codechina.csdn.net/mirrors/steveloughran/winutils    |
-| mirrors/tensorflow/models                                  | https://codechina.csdn.net/mirrors/tensorflow/models         |
-| mirrors/wkentaro/labelme                                   | https://codechina.csdn.net/mirrors/wkentaro/labelme          |
-| csdn_codechina/opencv_technology                           | https://codechina.csdn.net/csdn_codechina/opencv_technology  |
-| lyndon_li/go_web                                           | https://codechina.csdn.net/lyndon_li/go_web                  |
-| mirrors/52JDK/Source-Collection                            | https://codechina.csdn.net/mirrors/52JDK/Source-Collection   |
-| mirrors/alibaba/canal                                      | https://codechina.csdn.net/mirrors/alibaba/canal             |
-| mirrors/alibaba/nacos                                      | https://codechina.csdn.net/mirrors/alibaba/nacos             |
-| mirrors/hanhanwanghahaha/Confession                        | https://codechina.csdn.net/mirrors/hanhanwanghahaha/Confession |
-| mirrors/nltk/nltk_data                                     | https://codechina.csdn.net/mirrors/nltk/nltk_data            |
-| mirrors/alibaba/fastjson                                   | https://codechina.csdn.net/mirrors/alibaba/fastjson          |
-| mirrors/best-bo-cai/books_management                       | https://codechina.csdn.net/mirrors/best-bo-cai/books_management |
-| mirrors/bigkoo/android-pickerview                          | https://codechina.csdn.net/mirrors/bigkoo/android-pickerview |
-| mirrors/shanglianlm0525/pytorch-networks                   | https://codechina.csdn.net/mirrors/shanglianlm0525/pytorch-networks |
-| mirrors/square/okhttp                                      | https://codechina.csdn.net/mirrors/square/okhttp             |
-| mirrors/4ttty/winutils                                     | https://codechina.csdn.net/mirrors/4ttty/winutils            |
-| mirrors/alibaba/p3c                                        | https://codechina.csdn.net/mirrors/alibaba/p3c               |
-| mirrors/bitcarmanlee/easy-algorithm-interview-and-practice | https://codechina.csdn.net/mirrors/bitcarmanlee/easy-algorithm-interview-and-practice |
-| mirrors/cartucho/map                                       | https://codechina.csdn.net/mirrors/cartucho/map              |
-| mirrors/ctripcorp/apollo                                   | https://codechina.csdn.net/mirrors/ctripcorp/apollo          |
-| mirrors/jikeMisma/java_datapase_project                    | https://codechina.csdn.net/mirrors/jikeMisma/java_datapase_project |
-| mirrors/pytorch/vision                                     | https://codechina.csdn.net/mirrors/pytorch/vision            |
-| mirrors/scwang90/SmartRefreshLayout                        | https://codechina.csdn.net/mirrors/scwang90/SmartRefreshLayout |
-| mirrors/spring-projects/spring-framework                   | https://codechina.csdn.net/mirrors/spring-projects/spring-framework |
-| mirrors/srccodes/hadoop-common-2.2.0-bin                   | https://codechina.csdn.net/mirrors/srccodes/hadoop-common-2.2.0-bin |
-| mirrors/wszqkzqk/deepin-wine-ubuntu                        | https://codechina.csdn.net/mirrors/wszqkzqk/deepin-wine-ubuntu |
-| mirrors/youth5201314/banner                                | https://codechina.csdn.net/mirrors/youth5201314/banner       |
-| paddlepaddle/Paddle                                        | https://codechina.csdn.net/paddlepaddle/Paddle               |
-| linxinfa/UnityTile3D                                       | https://codechina.csdn.net/linxinfa/UnityTile3D              |
-| mirrors/arut/nginx-rtmp-module                             | https://codechina.csdn.net/mirrors/arut/nginx-rtmp-module    |
-| mirrors/espressif/arduino-esp32                            | https://codechina.csdn.net/mirrors/espressif/arduino-esp32   |
-| mirrors/jesolem/pcv                                        | https://codechina.csdn.net/mirrors/jesolem/pcv               |
-| mirrors/litepalframework/litepal                           | https://codechina.csdn.net/mirrors/litepalframework/litepal  |
-| mirrors/macrozheng/mall                                    | https://codechina.csdn.net/mirrors/macrozheng/mall           |
-| mirrors/tianxiaomo/pytorch-yolov4                          | https://codechina.csdn.net/mirrors/tianxiaomo/pytorch-yolov4 |
-| mirrors/zxing/zxing                                        | https://codechina.csdn.net/mirrors/zxing/zxing               |
-| mirrors/Awesome-HarmonyOS/HarmonyOS                        | https://codechina.csdn.net/mirrors/Awesome-HarmonyOS/HarmonyOS |
-| mirrors/bilibili/ijkplayer                                 | https://codechina.csdn.net/mirrors/bilibili/ijkplayer        |
-| mirrors/harisiqbal88/plotneuralnet                         | https://codechina.csdn.net/mirrors/harisiqbal88/plotneuralnet |
-| mirrors/jessyancoding/androidautosize                      | https://codechina.csdn.net/mirrors/jessyancoding/androidautosize |
-| mirrors/youngyangyang04/leetcode-master                    | https://codechina.csdn.net/mirrors/youngyangyang04/leetcode-master |
-| mirrors/zhihu/matisse                                      | https://codechina.csdn.net/mirrors/zhihu/matisse             |
-| EricLee/classification                                     | https://codechina.csdn.net/EricLee/classification            |
-| csdn_codechina/it_information                              | https://codechina.csdn.net/csdn_codechina/it_information     |
-| mirrors/bubbliiiing/unet-pytorch                           | https://codechina.csdn.net/mirrors/bubbliiiing/unet-pytorch  |
-| mirrors/detectrecog/ccpd                                   | https://codechina.csdn.net/mirrors/detectrecog/ccpd          |
-| mirrors/fo40225/tensorflow-windows-wheel                   | https://codechina.csdn.net/mirrors/fo40225/tensorflow-windows-wheel |
-| mirrors/lin-xin/vue-manage-system                          | https://codechina.csdn.net/mirrors/lin-xin/vue-manage-system |
-| mirrors/littlecurl/appprojects                             | https://codechina.csdn.net/mirrors/littlecurl/appprojects    |
-| mirrors/nothings/stb                                       | https://codechina.csdn.net/mirrors/nothings/stb              |
-| mirrors/whyalwaysmea/spring-security                       | https://codechina.csdn.net/mirrors/whyalwaysmea/spring-security |
-| mirrors/zxhjames/phpstudentmanagesystem                    | https://codechina.csdn.net/mirrors/zxhjames/phpstudentmanagesystem |
-| zorrosoft/pluginok                                         | https://codechina.csdn.net/zorrosoft/pluginok                |
+## Python爬虫相关
+
+### hihell/python120
+
+2021年5月21日，升级版 Python 爬虫 120 例上线啦。
+
+更新内容如下：
+
+更新频率更快，上次 800 天完成 100 例，这次 300 天完成 120 例； 更新所有目标网站； 更新最新框架；
+
+Python 爬虫的整体技术思想是不会发生变化的
+
+https://codechina.csdn.net/hihell/python120
+
+## Vue相关
+
+### vuejs/vue-devtools
+
+如果页面使用Vue.js的生产/缩小版本，则默认禁用devtools检查，因此不会显示Vue窗格
+
+要使它工作通过file://协议打开的页面，你需要检查“允许访问文件的url”这个扩展在Chrome的扩展管理面板
+
+事件选项卡仅显示由组件发出的自定义事件。关于自定义事件的更多信息可以在文档中找到
+
+https://codechina.csdn.net/mirrors/vuejs/vue-devtools
+
+### antabot/white-jotter
+
+这是一个简单的前后端分离项目，主要采用 Vue.js + SpringBoot 技术栈开发。
+
+除了用作入门练习，我还希望该项目可以作为一些常见 Web 项目的脚手架，帮助大家简化搭建网站的流程。之所以叫白卷，是因为它从 0 开始，会随着时间的推移逐渐完善。
+
+https://codechina.csdn.net/mirrors/antabot/white-jotter
+
+### vuejs-templates/webpack
+
+一个功能齐全的Webpack设置，带有热加载、lint-on-save、单元测试和css提取。
+该模板与Vue 2.0兼容。对于 Vue 1.x 使用此命令: vue init webpack#1.0 my-project
+
+https://codechina.csdn.net/mirrors/vuejs-templates/webpack
+
+## 深度学习相关
+
+### ultralytics/yolov5
+
+YOLOv5是一个目标检测体系结构，模型预先在COCO数据集上进行训练，并表示Ultralytics
+对未来视觉人工智能方法的开源研究，整合了在数千小时的研究和开发中积累的经验教训和最佳实践。
+
+https://codechina.csdn.net/mirrors/ultralytics/yolov5
+
+### lutzroeder/netron
+
+Netron 是神经网络、深度学习和机器学习模型的查看器。
+
+https://codechina.csdn.net/mirrors/lutzroeder/netron
+
+### tensorflow/tensorflow
+
+TensorFlow 是一个端到端的开源平台，用于机器学习。它拥有一个全面、灵活的生态系统工具，图书馆，和社区资源，让研究人员推动机器学习的最新技术，开发人员可以轻松构建和部署 ML 驱动的应用程序。
+
+https://codechina.csdn.net/mirrors/tensorflow/tensorflow
+
+## 搜索引擎相关
+
+### medcl/elasticsearch-analysis-ik
+
+IK Analysis插件将Lucene IK分析器集成到elasticsearch中，支持自定义字典。
+
+https://codechina.csdn.net/mirrors/medcl/elasticsearch-analysis-ik
+
+### mobz/elasticsearch-head
+
+Elasticsearch 集群的 Web 前端
+
+https://codechina.csdn.net/mirrors/mobz/elasticsearch-head
+
+## 微信小程序相关
+
+### qwerty472123/wxappUnpacker
+
+Wechat App(微信小程序, .wxapkg)解包及相关文件(.wxss, .json, .wxs, .wxml)还原工具
+
+https://codechina.csdn.net/mirrors/qwerty472123/wxappUnpacker
