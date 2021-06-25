@@ -21,12 +21,21 @@
 
 ## Python学习资源汇总
 
-| 项目名称                        | 项目链接                                                   |
-| ------------------------------- | ---------------------------------------------------------- |
-| mirrors/jack-cherish/pythonpark | https://codechina.csdn.net/mirrors/jack-cherish/pythonpark |
+| 项目名称                           | 项目链接                                                     |
+| ---------------------------------- | ------------------------------------------------------------ |
+| mirrors/jack-cherish/pythonpark    | https://codechina.csdn.net/mirrors/jack-cherish/pythonpark   |
+| mirrors/jackfrued/python-100-days  | https://codechina.csdn.net/mirrors/jackfrued/Python-100-Days |
+| mirrors/busyyang/python_sound_open | https://codechina.csdn.net/mirrors/busyyang/python_sound_open |
 
 ## Python练手项目
 
 | 项目名称                          | 项目链接                                                     |
 | --------------------------------- | ------------------------------------------------------------ |
 | qq_42279468/python_pet2_liqiujian | https://codechina.csdn.net/qq_42279468/python_pet2_liqiujian |
+
+## Python点云
+
+| 项目名称                    | 项目链接                                               |
+| --------------------------- | ------------------------------------------------------ |
+| mirrors/strawlab/python-pcl | https://codechina.csdn.net/mirrors/strawlab/python-pcl |
+
