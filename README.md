@@ -41,3 +41,9 @@
 | --------------------------- | ------------------------------------------------------ |
 | mirrors/strawlab/python-pcl | https://codechina.csdn.net/mirrors/strawlab/python-pcl |
 
+## 自然语言处理文章
+
+| 文章名称                    | 文章链接                                                  |
+| --------------------------- | --------------------------------------------------------- |
+| Natural language processing | https://en.wikipedia.org/wiki/Natural_language_processing |
+
