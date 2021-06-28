@@ -26,12 +26,14 @@
 | mirrors/jack-cherish/pythonpark    | https://codechina.csdn.net/mirrors/jack-cherish/pythonpark   |
 | mirrors/jackfrued/python-100-days  | https://codechina.csdn.net/mirrors/jackfrued/Python-100-Days |
 | mirrors/busyyang/python_sound_open | https://codechina.csdn.net/mirrors/busyyang/python_sound_open |
+| mirrors/jiayangwu/leetcode-python  | https://codechina.csdn.net/mirrors/JiayangWu/LeetCode-Python |
 
 ## Python练手项目
 
-| 项目名称                          | 项目链接                                                     |
-| --------------------------------- | ------------------------------------------------------------ |
-| qq_42279468/python_pet2_liqiujian | https://codechina.csdn.net/qq_42279468/python_pet2_liqiujian |
+| 项目名称                                                     | 项目链接                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| qq_42279468/python_pet2_liqiujian                            | https://codechina.csdn.net/qq_42279468/python_pet2_liqiujian |
+| mirrors/yangshangqi/the-python-code-implements-aircraft-warfare | https://codechina.csdn.net/mirrors/yangshangqi/The-Python-code-implements-aircraft-warfare |
 
 ## Python点云
 
