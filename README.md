@@ -48,3 +48,9 @@
 | Natural language processing | https://en.wikipedia.org/wiki/Natural_language_processing |
 | Terminology extraction      | https://en.wikipedia.org/wiki/Terminology_extraction      |
 
+## Pytorch入门教程
+
+| 教程名称                                      | 教程链接                                                     |
+| --------------------------------------------- | ------------------------------------------------------------ |
+| DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ | https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html |
+
