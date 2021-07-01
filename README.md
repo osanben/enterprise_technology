@@ -54,3 +54,9 @@
 | --------------------------------------------- | ------------------------------------------------------------ |
 | DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ | https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html |
 
+## 文本分析工具
+
+| 工具名称      | 链接                         |
+| ------------- | ---------------------------- |
+| Sketch Engine | https://www.sketchengine.eu/ |
+
