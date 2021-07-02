@@ -1,25 +1,25 @@
 # Python专题
 
-## Python爬虫
+## 爬虫
 
 | 项目名称         | 项目链接                                    |
 | ---------------- | ------------------------------------------- |
 | hihell/python120 | https://codechina.csdn.net/hihell/python120 |
 
-## Python技术路线图
+## 技术路线图
 
 | 项目名称                                 | 项目链接                                                     |
 | ---------------------------------------- | ------------------------------------------------------------ |
 | codechina/developer-roadmap/python/intro | https://codechina.gitcode.host/developer-roadmap/python/intro/ |
 
-## Python图像处理
+## 图像处理
 
 | 项目名称                                        | 项目链接                                                     |
 | ----------------------------------------------- | ------------------------------------------------------------ |
 | mirrors/eastmountyxz/imageprocessing-python     | https://codechina.csdn.net/mirrors/eastmountyxz/imageprocessing-python |
 | mirrors/dbeker/faster-rcnn-tensorflow-python3.5 | https://codechina.csdn.net/mirrors/dbeker/faster-rcnn-tensorflow-python3.5 |
 
-## Python学习资源汇总
+## 学习资源汇总
 
 | 项目名称                           | 项目链接                                                     |
 | ---------------------------------- | ------------------------------------------------------------ |
@@ -28,14 +28,14 @@
 | mirrors/busyyang/python_sound_open | https://codechina.csdn.net/mirrors/busyyang/python_sound_open |
 | mirrors/jiayangwu/leetcode-python  | https://codechina.csdn.net/mirrors/JiayangWu/LeetCode-Python |
 
-## Python练手项目
+## 练手项目
 
 | 项目名称                                                     | 项目链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | qq_42279468/python_pet2_liqiujian                            | https://codechina.csdn.net/qq_42279468/python_pet2_liqiujian |
 | mirrors/yangshangqi/the-python-code-implements-aircraft-warfare | https://codechina.csdn.net/mirrors/yangshangqi/The-Python-code-implements-aircraft-warfare |
 
-## Python点云
+## 点云
 
 | 项目名称                    | 项目链接                                               |
 | --------------------------- | ------------------------------------------------------ |
@@ -74,4 +74,10 @@
 | 书籍名称                                                     | 书籍链接                                  |
 | ------------------------------------------------------------ | ----------------------------------------- |
 | Kubernetes Handbook——Kubernetes 中文指南/云原生应用架构实践手册 | https://jimmysong.io/kubernetes-handbook/ |
+
+## 学习资源汇总
+
+| 项目名称             | 项目链接                                   |
+| -------------------- | ------------------------------------------ |
+| Awesome Cloud Native | https://jimmysong.io/awesome-cloud-native/ |
 
