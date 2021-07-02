@@ -10,7 +10,7 @@
 
 | 项目名称                                 | 项目链接                                                     |
 | ---------------------------------------- | ------------------------------------------------------------ |
-| codechina/developer-roadmap/python/intro | https://codechina.csdn.net/codechina/developer-roadmap/python/intro |
+| codechina/developer-roadmap/python/intro | https://codechina.gitcode.host/developer-roadmap/python/intro/ |
 
 ## Python图像处理
 
