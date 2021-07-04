@@ -50,6 +50,12 @@
 | Terminology extraction                                       | https://en.wikipedia.org/wiki/Terminology_extraction      |
 | 解读知识图谱的2020 : 技术成熟度飞速跃升，与产业互联结合更加紧密 | https://www.gridsum.com/about/newsinfo/2062.html          |
 
+## 计算机视觉文章
+
+| 文章名称                                            | 文章链接                                                     |
+| --------------------------------------------------- | ------------------------------------------------------------ |
+| Build Your Own Convolution Neural Network in 5 mins | https://towardsdatascience.com/build-your-own-convolution-neural-network-in-5-mins-4217c2cf964f |
+
 ## Pytorch入门教程
 
 | 教程名称                                      | 教程链接                                                     |
