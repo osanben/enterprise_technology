@@ -34,6 +34,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | qq_42279468/python_pet2_liqiujian                            | https://codechina.csdn.net/qq_42279468/python_pet2_liqiujian |
 | mirrors/yangshangqi/the-python-code-implements-aircraft-warfare | https://codechina.csdn.net/mirrors/yangshangqi/The-Python-code-implements-aircraft-warfare |
+| 10 Interesting Python Programs with Code                     | https://levelup.gitconnected.com/10-interesting-python-programs-with-code-b676181a2d1a |
 
 ## 点云
 
