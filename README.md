@@ -89,3 +89,9 @@
 | -------------- | --------------------------- |
 | GitHub Copilot | https://copilot.github.com/ |
 
+## Jupyter notebook
+
+| 文章名称                             | 文章链接                                                     |
+| ------------------------------------ | ------------------------------------------------------------ |
+| 10 Must-Know Jupyter Notebook Tricks | https://betterprogramming.pub/10-must-know-jupyter-notebook-tricks-51baea31922 |
+
