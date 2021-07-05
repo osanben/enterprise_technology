@@ -66,9 +66,10 @@
 
 ## 文本分析工具
 
-| 工具名称      | 链接                         |
-| ------------- | ---------------------------- |
-| Sketch Engine | https://www.sketchengine.eu/ |
+| 工具名称                             | 链接                                           |
+| ------------------------------------ | ---------------------------------------------- |
+| Sketch Engine                        | https://www.sketchengine.eu/                   |
+| Sketch Engine \| QUICK START LESSONS | https://www.sketchengine.eu/quick-start-guide/ |
 
 # 云原生专题
 
