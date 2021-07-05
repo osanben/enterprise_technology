@@ -56,6 +56,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Build Your Own Convolution Neural Network in 5 mins          | https://towardsdatascience.com/build-your-own-convolution-neural-network-in-5-mins-4217c2cf964f |
 | Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) | https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d |
+| Understanding 1D and 3D Convolution Neural Network \|Keras   | https://towardsdatascience.com/understanding-1d-and-3d-convolution-neural-network-keras-9d8f76e29610 |
 
 ## Pytorch入门教程
 
