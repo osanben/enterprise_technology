@@ -52,9 +52,10 @@
 
 ## 计算机视觉文章
 
-| 文章名称                                            | 文章链接                                                     |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| Build Your Own Convolution Neural Network in 5 mins | https://towardsdatascience.com/build-your-own-convolution-neural-network-in-5-mins-4217c2cf964f |
+| 文章名称                                                     | 文章链接                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Build Your Own Convolution Neural Network in 5 mins          | https://towardsdatascience.com/build-your-own-convolution-neural-network-in-5-mins-4217c2cf964f |
+| Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) | https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d |
 
 ## Pytorch入门教程
 
