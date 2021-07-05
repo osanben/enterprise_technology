@@ -88,7 +88,7 @@
 | -------------------- | ------------------------------------------ |
 | Awesome Cloud Native | https://jimmysong.io/awesome-cloud-native/ |
 
-# 开发工具
+# 开发工具专题
 
 ## 代码自动补全
 
@@ -109,4 +109,12 @@
 | Git                      | https://en.wikipedia.org/wiki/Git                            |
 | Git新手入門教學 – part 1 | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-1/ |
 | Git新手入門教學 – part 2 | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-2/ |
+
+# 大赛专题
+
+## 天池
+
+| 赛事名称                               | 赛事链接                                                    |
+| -------------------------------------- | ----------------------------------------------------------- |
+| 第一届“英特尔创新大师杯”深度学习挑战赛 | https://tianchi.aliyun.com/specials/promotion/xeonchallenge |
 
