@@ -119,3 +119,6 @@
 | -------------------------------------- | ----------------------------------------------------------- |
 | 第一届“英特尔创新大师杯”深度学习挑战赛 | https://tianchi.aliyun.com/specials/promotion/xeonchallenge |
 
+有兴趣的可以加一下群，主要用于信息交流用的，比如发一些活动信息，大会信息等
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina1/20210705161748.png)
