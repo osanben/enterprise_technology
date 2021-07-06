@@ -112,14 +112,15 @@
 | Git                      | https://en.wikipedia.org/wiki/Git                            |
 | Git新手入門教學 – part 1 | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-1/ |
 | Git新手入門教學 – part 2 | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-2/ |
+| Git 入门                 | https://codechina.csdn.net/courses/detail/1/l                |
 
 ## Markdown
 
 | 文章名称                                                     | 文章链接                                       |
 | ------------------------------------------------------------ | ---------------------------------------------- |
 | An overview of Markdown, how it works, and what you can do with it | https://www.markdownguide.org/getting-started/ |
-
-
+| A simple, in-browser, markdown-driven slideshow tool         | https://github.com/gnab/remark                 |
+| Markdown 基础入门                                            | https://codechina.csdn.net/courses/detail/2/l  |
 
 # 大会、大赛专题
 
