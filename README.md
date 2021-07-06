@@ -78,6 +78,12 @@
 | TensorFlow Recommenders 迎来更新 — 可扩展检索和特征交互建模  | https://bbs.csdn.net/topics/600119505 |
 | 案例分享 \|深度学习在花椒直播中的应用 — 神经网络与协同过滤篇 | https://bbs.csdn.net/topics/600291504 |
 
+## 数据集
+
+| 数据集名称              | 数据集链接                                |
+| ----------------------- | ----------------------------------------- |
+| MovieLens(推荐系统类别) | https://grouplens.org/datasets/movielens/ |
+
 # 云原生专题
 
 ## 科普文章
