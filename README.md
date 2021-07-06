@@ -71,6 +71,12 @@
 | Sketch Engine                        | https://www.sketchengine.eu/                   |
 | Sketch Engine \| QUICK START LESSONS | https://www.sketchengine.eu/quick-start-guide/ |
 
+## 推荐系统
+
+| 文章名称                                                    | 文章链接                              |
+| ----------------------------------------------------------- | ------------------------------------- |
+| TensorFlow Recommenders 迎来更新 — 可扩展检索和特征交互建模 | https://bbs.csdn.net/topics/600119505 |
+
 # 云原生专题
 
 ## 科普文章
