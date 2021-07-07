@@ -87,6 +87,12 @@
 | ----------------------- | ----------------------------------------- |
 | MovieLens(推荐系统类别) | https://grouplens.org/datasets/movielens/ |
 
+## 深度学习书籍
+
+| 书籍名称                                                     | 书籍链接                                         |
+| ------------------------------------------------------------ | ------------------------------------------------ |
+| Interactive deep learning book with multi-framework code, math, and discussions | https://codechina.csdn.net/mirrors/d2l-ai/d2l-en |
+
 # 云原生专题
 
 ## 科普文章
