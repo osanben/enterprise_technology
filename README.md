@@ -135,7 +135,7 @@
 | 文章名称                                                     | 文章链接                                       |
 | ------------------------------------------------------------ | ---------------------------------------------- |
 | An overview of Markdown, how it works, and what you can do with it | https://www.markdownguide.org/getting-started/ |
-| A simple, in-browser, markdown-driven slideshow tool         | https://github.com/gnab/remark                 |
+| A simple, in-browser, markdown-driven slideshow tool         | https://codechina.csdn.net/mirrors/gnab/remark |
 | Markdown 基础入门                                            | https://codechina.csdn.net/courses/detail/2/l  |
 
 # 大会、大赛专题
