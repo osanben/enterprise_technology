@@ -80,6 +80,7 @@
 | 揭开 ScaNN 的神秘面纱：高效的向量相似性搜索                  | https://bbs.csdn.net/topics/600320547 |
 | 案例分享 \|TensorFlow 在贝壳找房中的实践                     | https://bbs.csdn.net/topics/600301511 |
 | 案例分享 \|基于 TensorFlow 构建个性化股票内容推荐产品        | https://bbs.csdn.net/topics/600306529 |
+| 推荐系统从入门到接着入门                                     | https://zhuanlan.zhihu.com/p/27502172 |
 
 ## 数据集
 
