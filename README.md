@@ -78,6 +78,8 @@
 | TensorFlow Recommenders 迎来更新 — 可扩展检索和特征交互建模  | https://bbs.csdn.net/topics/600119505 |
 | 案例分享 \|深度学习在花椒直播中的应用 — 神经网络与协同过滤篇 | https://bbs.csdn.net/topics/600291504 |
 | 揭开 ScaNN 的神秘面纱：高效的向量相似性搜索                  | https://bbs.csdn.net/topics/600320547 |
+| 案例分享 \|TensorFlow 在贝壳找房中的实践                     | https://bbs.csdn.net/topics/600301511 |
+| 案例分享 \|基于 TensorFlow 构建个性化股票内容推荐产品        | https://bbs.csdn.net/topics/600306529 |
 
 ## 数据集
 
