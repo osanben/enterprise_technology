@@ -146,6 +146,12 @@
 | A simple, in-browser, markdown-driven slideshow tool         | https://codechina.csdn.net/mirrors/gnab/remark |
 | Markdown 基础入门                                            | https://codechina.csdn.net/courses/detail/2/l  |
 
+## Docker
+
+| 文章名称                                      | 文章链接                                         |
+| --------------------------------------------- | ------------------------------------------------ |
+| HOW TO CREATE A DOCKER IMAGE FROM A CONTAINER | https://www.scalyr.com/blog/create-docker-image/ |
+
 # 大会、大赛专题
 
 ## 天池
@@ -159,3 +165,10 @@
 | 大会名称               | 大会链接                     |
 | ---------------------- | ---------------------------- |
 | 2021年世界人工智能大会 | https://www.worldaic.com.cn/ |
+
+# Ubuntu专题
+
+| 问题名称                                                     | 问题解决方案                                    |
+| ------------------------------------------------------------ | ----------------------------------------------- |
+| Fix ‘add-apt-repository command not found’ Error on Ubuntu and Debian | sudo apt-get install software-properties-common |
+
