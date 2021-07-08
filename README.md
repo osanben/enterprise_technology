@@ -172,3 +172,9 @@
 | ------------------------------------------------------------ | ----------------------------------------------- |
 | Fix ‘add-apt-repository command not found’ Error on Ubuntu and Debian | sudo apt-get install software-properties-common |
 
+# 开源
+
+| 文章名称     | 文章链接                                                     |
+| ------------ | ------------------------------------------------------------ |
+| 开源是什么？ | https://www.redhat.com/zh/topics/open-source/what-is-open-source |
+
