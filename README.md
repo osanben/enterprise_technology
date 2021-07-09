@@ -137,6 +137,7 @@
 | Git新手入門教學 – part 2    | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-2/ |
 | Git 入门                    | https://codechina.csdn.net/courses/detail/1/l                |
 | CODE CHINA平台学习广场之Git | https://blog.csdn.net/csdn_codechina/article/details/116226921 |
+| Git版本控制UI操作软件       | https://www.gitkraken.com/                                   |
 
 ## Markdown
 
