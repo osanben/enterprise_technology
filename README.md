@@ -177,9 +177,10 @@
 
 | 文章名称                                                     | 文章链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 开源是什么？                                                 | https://www.redhat.com/zh/topics/open-source/what-is-open-source |
+| 开源是什么？--Red Hat                                        | https://www.redhat.com/zh/topics/open-source/what-is-open-source |
 | 2021年度企业开源现状报告(来自红帽)                           | https://www.redhat.com/zh/enterprise-open-source-report/2021 |
 | 2019年中国开源年度报告(中国开源的开发者调查、生态环境报告、深度专题分析) | https://kaiyuanshe.cn/2019-China-Open-Source-Report/investigation.html |
 | 2020 中国开源年度报告                                        | https://kaiyuanshe.cn/document/china-os-report-2020/         |
-| 什么是开源？                                                 | https://zhuanlan.zhihu.com/p/51280896                        |
+| 什么是开源？--Peter                                          | https://zhuanlan.zhihu.com/p/51280896                        |
+| 什么是开源？--Linux中国                                      | https://zhuanlan.zhihu.com/p/27501070                        |
 
