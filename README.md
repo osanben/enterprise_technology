@@ -183,4 +183,11 @@
 | 2020 中国开源年度报告                                        | https://kaiyuanshe.cn/document/china-os-report-2020/         |
 | 什么是开源？--Peter                                          | https://zhuanlan.zhihu.com/p/51280896                        |
 | 什么是开源？--Linux中国                                      | https://zhuanlan.zhihu.com/p/27501070                        |
+| 开源软件及其法律风险                                         | https://zhuanlan.zhihu.com/p/91071379                        |
+
+# 稀奇古怪的项目
+
+| 项目名称                                | 项目链接                                          |
+| --------------------------------------- | ------------------------------------------------- |
+| WiFi Card(通过打印WIFI二维码，方便登录) | https://codechina.csdn.net/mirrors/bndw/wifi-card |
 
