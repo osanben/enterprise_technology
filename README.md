@@ -94,6 +94,14 @@
 | ------------------------------------------------------------ | ------------------------------------------------ |
 | Interactive deep learning book with multi-framework code, math, and discussions | https://codechina.csdn.net/mirrors/d2l-ai/d2l-en |
 
+## 深度学习开发工具
+
+| 工具名称          | 工具链接                                                     |
+| ----------------- | ------------------------------------------------------------ |
+| Ray               | https://codechina.csdn.net/mirrors/ray-project/ray           |
+| Albumentations    | https://codechina.csdn.net/mirrors/albumentations-team/albumentations |
+| PyTorch Lightning | https://codechina.csdn.net/mirrors/PyTorchLightning/pytorch-lightning |
+
 # 云原生专题
 
 ## 科普文章
