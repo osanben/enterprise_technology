@@ -101,6 +101,10 @@
 | Ray               | https://codechina.csdn.net/mirrors/ray-project/ray           |
 | Albumentations    | https://codechina.csdn.net/mirrors/albumentations-team/albumentations |
 | PyTorch Lightning | https://codechina.csdn.net/mirrors/PyTorchLightning/pytorch-lightning |
+| MegEngine         | https://codechina.csdn.net/megvii/megengine                  |
+| PaddlePaddle      | https://codechina.csdn.net/paddlepaddle/Paddle               |
+| mindspore         | https://codechina.csdn.net/mindspore/mindspore               |
+| oneflow           | https://codechina.csdn.net/mirrors/Oneflow-Inc/oneflow       |
 
 # 云原生专题
 
@@ -141,6 +145,7 @@
 | 文章名称                    | 文章链接                                                     |
 | --------------------------- | ------------------------------------------------------------ |
 | Git                         | https://en.wikipedia.org/wiki/Git                            |
+| Git简介                     | https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000 |
 | Git新手入門教學 – part 1    | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-1/ |
 | Git新手入門教學 – part 2    | https://kopu.chat/2017/01/18/git%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8-part-2/ |
 | Git 入门                    | https://codechina.csdn.net/courses/detail/1/l                |
