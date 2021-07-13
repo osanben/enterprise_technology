@@ -204,3 +204,10 @@
 | --------------------------------------- | ------------------------------------------------- |
 | WiFi Card(通过打印WIFI二维码，方便登录) | https://codechina.csdn.net/mirrors/bndw/wifi-card |
 
+# 课程学习资源
+
+| 项目名称                 | 项目链接                                                     |
+| ------------------------ | ------------------------------------------------------------ |
+| 浙江大学课程攻略共享计划 | https://codechina.csdn.net/mirrors/QSCTech/zju-icicles       |
+| 名校公开课程评价网       | https://codechina.csdn.net/mirrors/conanhujinming/comments-for-awesome-courses |
+
