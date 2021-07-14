@@ -211,3 +211,6 @@
 | 浙江大学课程攻略共享计划 | https://codechina.csdn.net/mirrors/QSCTech/zju-icicles       |
 | 名校公开课程评价网       | https://codechina.csdn.net/mirrors/conanhujinming/comments-for-awesome-courses |
 
+有兴趣的可以加一下code china用户交流群
+
+![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina1/2021071412:59:07.png)
