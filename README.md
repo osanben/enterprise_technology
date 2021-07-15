@@ -106,6 +106,13 @@
 | mindspore         | https://codechina.csdn.net/mindspore/mindspore               |
 | oneflow           | https://codechina.csdn.net/mirrors/Oneflow-Inc/oneflow       |
 
+## 数据分析
+
+| 文章名称                   | 文章链接                                                     |
+| -------------------------- | ------------------------------------------------------------ |
+| 数据分析必备的三大能力体系 | http://www.woshipm.com/data-analysis/704497.html             |
+| 数据分析                   | https://wiki.mbalib.com/wiki/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90 |
+
 # 云原生专题
 
 ## 科普文章
