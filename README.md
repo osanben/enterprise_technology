@@ -23,6 +23,7 @@
 
 | 项目名称                           | 项目链接                                                     |
 | ---------------------------------- | ------------------------------------------------------------ |
+| The Algorithms - Python            | https://codechina.csdn.net/mirrors/TheAlgorithms/Python      |
 | mirrors/jack-cherish/pythonpark    | https://codechina.csdn.net/mirrors/jack-cherish/pythonpark   |
 | mirrors/jackfrued/python-100-days  | https://codechina.csdn.net/mirrors/jackfrued/Python-100-Days |
 | mirrors/busyyang/python_sound_open | https://codechina.csdn.net/mirrors/busyyang/python_sound_open |
