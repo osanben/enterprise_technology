@@ -94,3 +94,5 @@ optimizer.apply_gradients(zip(grads, model.trainable_variables))
 ```
 
 上面是一个简单的代码片段
+
+最后放一个Tensorflow代码仓库: https://codechina.csdn.net/mirrors/tensorflow/tensorflow
