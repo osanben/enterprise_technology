@@ -82,3 +82,5 @@ test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2)
 ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina1/20210720153736.png)
 
 如上图所示，train_acc=0.91，test_acc=0.88，0.88 < 0.91 并且差距不小，造成这个的原因是过拟合，意思就是模型在训练集上的表现比测试集上的好，有一部分原因是模型记住了训练集的数据和其中的noise，从而对新数据的预测造成负面影响
+
+代码地址: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/Basic%20classification:%20Classify%20images%20of%20clothing.md
