@@ -99,3 +99,5 @@ print(y_test[:5])
 ![](https://maoxianxin1996.oss-accelerate.aliyuncs.com/codechina1/20210720122251.png)
 
 上图是对测试集的前 5 张图片进行预测，可以看到预测结果均正确
+
+代码地址: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/tf2_quickstart_for_beginners.ipynb
