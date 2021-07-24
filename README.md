@@ -128,6 +128,12 @@
 | --------------------------------------- | ---------------------------------------------------------- |
 | ffmpeg_分割一个mp4文件到多个小的mp4文件 | https://blog.csdn.net/S_gy_Zetrov/article/details/88594306 |
 
+## Tensorflow
+
+| 文章名称                                                   | 文章链接                                                     |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Train and serve a TensorFlow model with TensorFlow Serving | https://www.tensorflow.org/tfx/tutorials/serving/rest_simple |
+
 # 云原生专题
 
 ## 科普文章
