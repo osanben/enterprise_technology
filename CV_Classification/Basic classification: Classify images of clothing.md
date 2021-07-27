@@ -166,3 +166,5 @@ predictions_single = probability_model.predict(img)
 
 print(predictions_single)
 ```
+
+代码链接: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/CV_Classification/Basic%20classification:%20Classify%20images%20of%20clothing.ipynb
