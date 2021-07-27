@@ -89,3 +89,5 @@ probability_model = tf.keras.Sequential([
 ```
 probability_model(x_test[:5])
 ```
+
+代码链接: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/CV_Classification/TensorFlow%202%20quickstart%20for%20beginners.ipynb
