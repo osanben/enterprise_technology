@@ -125,3 +125,5 @@ for epoch in range(EPOCHS):
 ```
 
 The image classifier is now trained to ~98% accuracy on this dataset
+
+代码链接: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/CV_Classification/TensorFlow%202%20quickstart%20for%20experts.ipynb
