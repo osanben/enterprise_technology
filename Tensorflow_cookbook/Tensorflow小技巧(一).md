@@ -49,3 +49,29 @@ dataset = tf.data.Dataset.from_tensor_slices([1, 2, 3])
 for element in dataset.as_numpy_iterator():
   print(element)
 ```
+
+## tf.data.Dataset
+
+The `tf.data.Dataset` API supports writing descriptive and efficient input pipelines. `Dataset` usage follows a common pattern:
+
+1. Create a source dataset from your input data.
+2. Apply dataset transformations to preprocess the data.
+3. Iterate over the dataset and process the elements.
+
+Iteration happens in a streaming fashion, so the full dataset does not need to fit into memory.
+
+The simplest way to create a dataset is to create it from a python list:
+
+```
+dataset = tf.data.Dataset.from_tensor_slices([1, 2, 3])
+for element in dataset:
+  print(element)
+```
+
+Once you have a dataset, you can apply transformations to prepare the data for your model:
+
+```
+dataset = tf.data.Dataset.from_tensor_slices([1, 2, 3])
+dataset = dataset.map(lambda x: x*2)
+list(dataset.as_numpy_iterator())
+```
