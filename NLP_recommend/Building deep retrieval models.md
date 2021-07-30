@@ -325,4 +325,4 @@ accuracy = three_layer_history.history["val_factorized_top_k/top_100_categorical
 print(f"Top-100 accuracy: {accuracy:.2f}.")
 ```
 
-代码链接: 
+代码链接: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/NLP_recommend/Building%20deep%20retrieval%20models.ipynb
