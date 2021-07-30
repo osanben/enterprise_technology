@@ -111,4 +111,4 @@ _, titles = index(np.array(["42"]))
 print(f"Top 3 recommendations for user 42: {titles[0, :3]}")
 ```
 
-代码地址: 
+代码地址: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/NLP_recommend/TensorFlow%20Recommenders:%20Quickstart.ipynb
