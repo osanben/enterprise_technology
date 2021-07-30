@@ -321,5 +321,5 @@ with tempfile.TemporaryDirectory() as tmp:
   print(f"Recommendations: {titles[0][:3]}")
 ```
 
-代码链接: 
+代码链接: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/NLP_recommend/Recommending%20movies:%20retrieval.ipynb
 

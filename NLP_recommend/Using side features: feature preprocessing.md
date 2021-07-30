@@ -37,8 +37,9 @@ Most deep learning models express these feature by turning them into high-dimens
 For example, suppose that our goal is to predict which user is going to watch which movie. To do that, we represent each user and each movie by an embedding vector. Initially, these embeddings will take on random values - but during training, we will adjust them so that embeddings of users and the movies they watch end up closer together.
 Taking raw categorical features and turning them into embeddings is normally a two-step process:
 
-+ Firstly, we need to translate the raw values into a range of contiguous integers, normally by building a mapping (called a "vocabulary") that maps raw values ("Star Wars") to integers (say, 15)
-+ Secondly, we need to take these integers and turn them into embeddings.
+1. Firstly, we need to translate the raw values into a range of contiguous integers, normally by building a mapping (called a "vocabulary") that maps raw values ("Star Wars") to integers (say, 15)
+
+2. Secondly, we need to take these integers and turn them into embeddings.
 
 ### Defining the vocabulary
 
@@ -299,3 +300,5 @@ movie_model.title_text_embedding.layers[0].adapt(
 for row in ratings.batch(1).take(1):
   print(f"Computed representations: {movie_model(row)[0, :3]}")
 ```
+
+代码地址: 
