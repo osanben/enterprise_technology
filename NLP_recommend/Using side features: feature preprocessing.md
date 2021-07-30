@@ -301,4 +301,4 @@ for row in ratings.batch(1).take(1):
   print(f"Computed representations: {movie_model(row)[0, :3]}")
 ```
 
-代码地址: 
+代码地址: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/NLP_recommend/Using%20side%20features:%20feature%20preprocessing.ipynb
