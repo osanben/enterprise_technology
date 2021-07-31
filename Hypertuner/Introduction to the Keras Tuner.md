@@ -141,4 +141,4 @@ print("[test loss, test accuracy]:", eval_result)
 
 The `my_dir/intro_to_kt` directory contains detailed logs and checkpoints for every trial (model configuration) run during the hyperparameter search. If you re-run the hyperparameter search, the Keras Tuner uses the existing state from these logs to resume the search. To disable this behavior, pass an additional `overwrite=True` argument while instantiating the tuner.
 
-代码地址: 
+代码地址: https://codechina.csdn.net/csdn_codechina/enterprise_technology/-/blob/master/Hypertuner/Introduction%20to%20the%20Keras%20Tuner.ipynb
