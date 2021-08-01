@@ -1,6 +1,8 @@
-我自己写的代码和该教程略有不一样，有两处改动，第一个地方是用归一化(均值为0，方差为1)代替数值缩放([0, 1])，代替的理由是能提升准确率
+我自己写的代码和该教程略有不一样，有三处改动，第一个地方是用归一化(均值为0，方差为1)代替数值缩放([0, 1])，代替的理由是能提升准确率
 
-第二处改动是对模型训练五次进行acc取平均值，因为keras训练模型会有准确率波动，详细代码见文末链接
+第二处改动是添加了正则化，在Conv2D和Dense Layer中均有添加，可以抑制模型过拟合，提升val_acc
+
+第三处改动是对模型训练五次进行acc取平均值，因为keras训练模型会有准确率波动，详细代码见文末链接
 
 This tutorial demonstrates training a simple Convolutional Neural Network (CNN) to classify CIFAR images. Because this tutorial uses the Keras Sequential API, creating and training your model will take just a few lines of code.
 
